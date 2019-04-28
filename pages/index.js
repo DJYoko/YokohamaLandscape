@@ -34,6 +34,7 @@ const styles = css`
     background-position: center;
     background-repeat: no-repeat;
     position:relative;
+
   }
 
   .title-wrap {
@@ -47,8 +48,8 @@ const styles = css`
   h1 {
     color: #fff;
     display:inline-block;
-    background-color:rgba(0,0,0,0.75);
     padding: 12px;
+    font-size:60px;
   }
 `;
 
