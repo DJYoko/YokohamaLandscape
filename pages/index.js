@@ -15,10 +15,10 @@ export class Index extends React.Component {
       <div>
         <CommonHead></CommonHead>
         <div id="root">
-        <div className="title-wrap">
+          <div className="title-wrap">
             <h1>Yokohama Landscape</h1>
-        </div>          
-         <style jsx>{styles}</style>
+          </div>
+          <style jsx>{styles}</style>
         </div>
       </div>
     );
