@@ -13,7 +13,7 @@ export class Index extends React.Component {
   render() {
     return (
       <div>
-        <CommonHead title="Yokohama Landscape"></CommonHead>
+        <CommonHead></CommonHead>
         <div id="root">
         <div className="title-wrap">
             <h1>Yokohama Landscape</h1>
