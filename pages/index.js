@@ -14,35 +14,34 @@ export class Index extends React.Component {
     return (
       <div>
         <CommonHead></CommonHead>
-        <div id="root">
+        <div id="root" className="container">
           <div className="title-wrap">
             <h1>Yokohama Landscape</h1>
           </div>
+          <style jsx global>{`
+            body { 
+              background:url(/static/img/background/index.jpg);
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              position:relative;
+              background-attachment:fixed;
+            }
+          `}</style>
           <style jsx>{styles}</style>
         </div>
       </div>
     );
   }
 }
-
 const styles = css`
   #root {
-    width: 100%;
-    height: 100%;    
-    background:url(/static/img/background/index.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position:relative;
-
+    padding-top: 200px;
   }
 
   .title-wrap {
-    position: absolute;
-    bottom:50%;
-    left:0;
-    width: 100%;
     text-align:center;
+    margin-bottom:24px;
   }
 
   h1 {
