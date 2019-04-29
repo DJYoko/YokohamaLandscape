@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
 import CommonHead from '../src/components/CommonHead';
+import AreaLinks from '../src/components/AreaLinks';
 
 export class Index extends React.Component {
   constructor(props) {
@@ -17,6 +18,9 @@ export class Index extends React.Component {
         <div id="root" className="container">
           <div className="title-wrap">
             <h1>Yokohama Landscape</h1>
+          </div>
+          <div className="index-links-wrap">
+            <AreaLinks></AreaLinks>          
           </div>
           <style jsx global>{`
             body { 
@@ -49,6 +53,11 @@ const styles = css`
     display:inline-block;
     padding: 12px;
     font-size:60px;
+  }
+
+  .index-links-wrap {
+    max-width: 1024px;
+    margin:0 auto;
   }
 `;
 
