@@ -20,7 +20,7 @@ export class Index extends React.Component {
             <h1>Yokohama Landscape</h1>
           </div>
           <div className="index-links-wrap">
-            <AreaLinks></AreaLinks>          
+            <AreaLinks></AreaLinks>
           </div>
           <style jsx global>{`
             body { 
