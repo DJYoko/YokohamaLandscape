@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
-import CommonHead from '../src/component/commonHead';
+import CommonHead from '../src/components/CommonHead';
 
 export class Index extends React.Component {
   constructor(props) {

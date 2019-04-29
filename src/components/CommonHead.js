@@ -18,5 +18,8 @@ export class CommonHead extends React.Component {
     }
 }
 
+CommonHead.defaultProps = {
+    title: 'Yokohama Landscape',
+}
 
 export default CommonHead;
