@@ -8,3 +8,7 @@ html,body,
 #__next, #__next > div {
     height: 100%;
 }
+
+a{
+    transition: all 200ms;
+}
