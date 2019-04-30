@@ -38,6 +38,7 @@ const styles = css`
         padding: 24px;
         text-align:center;
         border-radius: 4px;
+        margin-bottom:24px;
     }
 
     .area-link:hover {

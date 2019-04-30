@@ -78,7 +78,15 @@ const styles = css`
 .text {
   margin-top: 12px;
   padding: 24px;
-  background:rgba(0,0,0,0.25);
+  background:rgba(0,0,0,0.9);
+  max-width:400px;
+  border-radius:4px;
+}
+.text h1 {
+  margin-top:0;
+}
+.text p {
+  margin-bottom: 0;
 }
 `;
 
