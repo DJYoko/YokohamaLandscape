@@ -6,7 +6,8 @@ it works as SPA.
 [https://djyoko.github.io/YokohamaLandscape](https://djyoko.github.io/YokohamaLandscape)
 
 ### build command
-`npm run dev`
+- RUN `npm run dev`
+- EXPORT `npm run export`
 
 ### framework & libraries
 - [React](https://reactjs.org/)
