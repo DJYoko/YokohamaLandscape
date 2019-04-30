@@ -44,7 +44,9 @@ export class detail extends React.Component {
       <div className="pageRoot" style={{ backgroundImage: this.getBackgroundImageStyle() }}>
         <CommonHead></CommonHead>
         <div className="container">
-          <BackLink></BackLink>
+          <div className="back-link-wrap">
+            <BackLink></BackLink>
+          </div>
           <DescriptionBox title={this.state.title} description={this.state.description}></DescriptionBox>
         </div>
         <style jsx>{styles}</style>
@@ -55,7 +57,13 @@ export class detail extends React.Component {
     return (
       <div>
         <CommonHead></CommonHead>
-        <p>Sorry page data is not found.</p>
+        <div className="container">
+          <div className="back-link-wrap">
+            <BackLink></BackLink>
+          </div>
+          <p>Sorry page data is not found.</p>
+          <style jsx>{styles}</style>
+        </div>
       </div>
     )
   }
@@ -72,6 +80,9 @@ const styles = css`
 }
 .container {
   padding-top: 24px;
+}
+.back-link-wrap {
+  margin-bottom: 12px;
 }
 `;
 

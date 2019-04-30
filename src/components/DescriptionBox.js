@@ -19,7 +19,6 @@ export class DescriptionBox extends React.Component {
 
 const styles = css`
 .descrition-box {
-  margin-top: 12px;
   padding: 24px;
   background:rgba(0,0,0,0.9);
   max-width:440px;
