@@ -25,11 +25,6 @@ export class Index extends React.Component {
           <style jsx global>{`
             body { 
               background:url(/static/img/background/index.jpg);
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
-              position:relative;
-              background-attachment:fixed;
             }
           `}</style>
           <style jsx>{styles}</style>

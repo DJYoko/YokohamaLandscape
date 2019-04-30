@@ -1,15 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:"Helvetica Neue", Helvetica, Arial, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "MS ゴシック", "MS Gothic", sans-serif;
 }
 
-html,body,
-#__next, #__next > div {
-    height: 100%;
-    color:#d9d9d9;
+html,
+body,
+#__next,
+#__next > div {
+	height: 100%;
+	color: #d9d9d9;
+	background-color: #262626;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
 }
 
-a{
-    transition: all 200ms;
+a {
+	transition: all 200ms;
 }
