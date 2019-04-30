@@ -7,7 +7,8 @@ it works as SPA.
 
 ### build command
 - RUN `npm run dev`
-- EXPORT `npm run export`
+- EXPORT `npm run export` => caution!! `.nojekyll` file will be destroyed under the build. => discard the destruction.(DON'T PUSH IT!!) 
+
 
 ### framework & libraries
 - [React](https://reactjs.org/)
