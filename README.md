@@ -1,2 +1,18 @@
 # YokohamaLandscape
-Landscape of my Hometown. based on Next.js
+Landscape of my Hometown. based on `Next.js`.
+it works as SPA.
+
+## demo
+[https://djyoko.github.io/YokohamaLandscape](https://djyoko.github.io/YokohamaLandscape)
+
+### build command
+`npm run dev`
+
+### framework & libraries
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+
+### visual materials
+- photos [unsplash.com](https://unsplash.com), [www.pakutaso.com](https://www.pakutaso.com)
+- text [Wikipedia](https://en.wikipedia.org/wiki/Yokohama)
