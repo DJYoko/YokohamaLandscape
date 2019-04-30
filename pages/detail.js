@@ -7,6 +7,7 @@ import Areas from '../src/data/Areas';
 import Link from 'next/link';
 import CommonHead from '../src/components/CommonHead';
 import BackLink from '../src/components/BackLink';
+import DescriptionBox from '../src/components/DescriptionBox';
 
 export class detail extends React.Component {
   constructor(props) {
@@ -44,10 +45,7 @@ export class detail extends React.Component {
         <CommonHead></CommonHead>
         <div className="container">
           <BackLink></BackLink>
-          <div className="text">
-            <h1>{this.state.title}</h1>
-            <p>{this.state.description}</p>
-          </div>
+          <DescriptionBox title={this.state.title} description={this.state.description}></DescriptionBox>
         </div>
         <style jsx>{styles}</style>
       </div>
@@ -74,19 +72,6 @@ const styles = css`
 }
 .container {
   padding-top: 24px;
-}
-.text {
-  margin-top: 12px;
-  padding: 24px;
-  background:rgba(0,0,0,0.9);
-  max-width:400px;
-  border-radius:4px;
-}
-.text h1 {
-  margin-top:0;
-}
-.text p {
-  margin-bottom: 0;
 }
 `;
 
