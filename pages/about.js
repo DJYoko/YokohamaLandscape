@@ -26,9 +26,16 @@ export class About extends React.Component {
             <div className="description">
               <h2>web framework &amp; libraries</h2>
               <ul>
-                <li>React <a href="https://reactjs.org/" target="_blank">https://reactjs.org/</a></li>
-                <li>Next.js <a href="https://nextjs.org/" target="_blank">https://nextjs.org/</a></li>
-                <li>Bootstrap <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a></li>
+                <li>React <a href="https://reactjs.org" target="_blank">https://reactjs.org</a></li>
+                <li>Next.js <a href="https://nextjs.org" target="_blank">https://nextjs.org</a></li>
+                <li>Bootstrap <a href="https://getbootstrap.com" target="_blank">https://getbootstrap.com</a></li>
+              </ul>
+              <hr />
+              <h4>visual materials</h4>
+              <ul>
+                <li>photos <a href="https://unsplash.com" target="_blank">unsplash.com</a>, <a href="https://www.pakutaso.com" target="_blank">www.pakutaso.com</a>
+                </li>
+                <li>text <a href="https://en.wikipedia.org/wiki/Yokohama" target="_blank">Wikipedia</a></li>
               </ul>
               <hr />
                 <h4>source</h4>
