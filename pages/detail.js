@@ -6,6 +6,7 @@ import css from 'styled-jsx/css';
 import Areas from '../src/data/Areas';
 import Link from 'next/link';
 import CommonHead from '../src/components/CommonHead';
+import BackLink from '../src/components/BackLink';
 
 export class detail extends React.Component {
   constructor(props) {
