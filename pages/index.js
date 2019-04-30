@@ -37,6 +37,12 @@ const styles = css`
   #root {
     padding-top: 200px;
   }
+  @media screen and (max-width: 480px){
+    #root {
+    padding-top: 60px;
+}
+  }
+
 
   .title-wrap {
     text-align:center;
@@ -49,6 +55,12 @@ const styles = css`
     padding: 12px;
     font-size:60px;
   }
+  @media screen and (max-width: 480px){
+    h1{
+    font-size: 48px;
+}
+  }
+
 
   .index-links-wrap {
     max-width: 1024px;
