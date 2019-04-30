@@ -35,7 +35,7 @@ export class Index extends React.Component {
           </div>
           <style jsx global>{`
             body { 
-              background-image:url(/static/img/background/index.jpg);
+              background-image:url(../static/img/background/index.jpg);
             }
           `}</style>
           <style jsx>{styles}</style>

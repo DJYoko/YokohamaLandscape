@@ -61,7 +61,7 @@ const styles = css`
     position:absolute;
     left:0;
     top:0;
-    background-image:url(/static/img/background/index.jpg);
+    background-image:url(../static/img/background/index.jpg);
     filter: blur(5px);
     opacity:0.5;
   }

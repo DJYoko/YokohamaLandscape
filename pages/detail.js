@@ -68,7 +68,7 @@ export class detail extends React.Component {
     )
   }
   getBackgroundImageStyle() {
-    return 'url(/static/img/background/' + this.state.img + ')';
+    return 'url(../static/img/background/' + this.state.img + ')';
   }
 }
 
