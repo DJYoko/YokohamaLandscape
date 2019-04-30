@@ -16,14 +16,12 @@ export class detail extends React.Component {
   }
   render() {
     const areaData = this.getAreaData(this.props.query.name);
-    this.setAreaData(areaData);
-    
-    return (
-      <div>
-        <p>{this.state.title}</p>
-        <p>{this.state.description}</p>
-      </div>
-    )
+    if (areaData !== null) {
+      this.setAreaData(areaData);
+      return this.renderDefault ();
+    } else {
+      return this.renderError ();
+    }
   }
   getAreaData (path) {
     const filteredAreas = Areas.filter((area) => {
@@ -36,6 +34,21 @@ export class detail extends React.Component {
     this.state.description = areaData.description;
     this.state.title = areaData.title;
     return this.state;
+  }
+  renderDefault () {
+    return (
+      <div>
+        <p>{this.state.title}</p>
+        <p>{this.state.description}</p>
+      </div>
+    )
+  }
+  renderError () {
+    return (
+      <div>
+        <p>Sorry page data is not found.</p>
+      </div>
+    )
   }
 }
 export default detail;
