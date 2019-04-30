@@ -5,6 +5,7 @@ import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
 import CommonHead from '../src/components/CommonHead';
 import AreaLinks from '../src/components/AreaLinks';
+import Link from 'next/link';
 
 export class Index extends React.Component {
   constructor(props) {
@@ -19,8 +20,18 @@ export class Index extends React.Component {
           <div className="title-wrap">
             <h1>Yokohama Landscape</h1>
           </div>
-          <div className="index-links-wrap">
+          <div className="area-links-wrap">
             <AreaLinks></AreaLinks>
+          </div>
+          <div className="about-link-wrap">
+            <Link href={{
+              pathname: '/about'
+            }}>
+              <a className="about-link">
+                ABOUT
+                <span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+              </a>
+            </Link>
           </div>
           <style jsx global>{`
             body { 
@@ -54,6 +65,7 @@ const styles = css`
     display:inline-block;
     padding: 12px;
     font-size:60px;
+    font-weight:bold;
   }
   @media screen and (max-width: 480px){
     h1{
@@ -62,10 +74,21 @@ const styles = css`
   }
 
 
-  .index-links-wrap {
+  .area-links-wrap {
     max-width: 1024px;
     margin:0 auto;
   }
+.about-link-wrap {
+  position:absolute;
+  top:0;
+  right:0;
+}
+.about-link-wrap a{
+  padding:12px;
+  display:block;
+  background:#262626;
+}
+
 `;
 
 export default Index
