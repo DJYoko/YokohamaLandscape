@@ -42,7 +42,6 @@ const styles = css`
     }
 
     .area-link:hover {
-        text-decoration:none;
         color: #262626;
         background:rgba(255,255,255,0.75);
     }
