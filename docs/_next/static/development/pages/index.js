@@ -11452,28 +11452,28 @@ function (_React$Component) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         id: "root",
-        className: "jsx-2801998987 " + "jsx-".concat(styles.__hash) + " " + "container",
+        className: "jsx-39061539 " + "jsx-".concat(styles.__hash) + " " + "container",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "jsx-2801998987 " + "jsx-".concat(styles.__hash) + " " + "title-wrap",
+        className: "jsx-39061539 " + "jsx-".concat(styles.__hash) + " " + "title-wrap",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
-        className: "jsx-2801998987 " + "jsx-".concat(styles.__hash),
+        className: "jsx-39061539 " + "jsx-".concat(styles.__hash),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         },
         __self: this
       }, "Yokohama Landscape")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "jsx-2801998987 " + "jsx-".concat(styles.__hash) + " " + "area-links-wrap",
+        className: "jsx-39061539 " + "jsx-".concat(styles.__hash) + " " + "area-links-wrap",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
@@ -11486,7 +11486,7 @@ function (_React$Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "jsx-2801998987 " + "jsx-".concat(styles.__hash) + " " + "about-link-wrap",
+        className: "jsx-39061539 " + "jsx-".concat(styles.__hash) + " " + "about-link-wrap",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
@@ -11502,7 +11502,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "jsx-2801998987 " + "jsx-".concat(styles.__hash) + " " + "about-link",
+        className: "jsx-39061539 " + "jsx-".concat(styles.__hash) + " " + "about-link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30
@@ -11510,16 +11510,16 @@ function (_React$Component) {
         __self: this
       }, "ABOUT", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         "aria-hidden": "true",
-        className: "jsx-2801998987 " + "jsx-".concat(styles.__hash) + " " + "glyphicon glyphicon-arrow-right",
+        className: "jsx-39061539 " + "jsx-".concat(styles.__hash) + " " + "glyphicon glyphicon-arrow-right",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        id: "2801998987",
+        id: "39061539",
         __self: this
-      }, "body{background-image:url(/static/img/background/index.jpg);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxnaXRodWJcXFlva29oYW1hTGFuZHNjYXBlXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUM2QixBQUdxRSx1REFDeEQiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXGdpdGh1YlxcWW9rb2hhbWFMYW5kc2NhcGVcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBSZWFjdERPTSBmcm9tICdyZWFjdC1kb20nO1xyXG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xyXG5pbXBvcnQgX0pTWFN0eWxlIGZyb20gJ3N0eWxlZC1qc3gvc3R5bGUnO1xyXG5pbXBvcnQgY3NzIGZyb20gJ3N0eWxlZC1qc3gvY3NzJztcclxuaW1wb3J0IENvbW1vbkhlYWQgZnJvbSAnLi4vc3JjL2NvbXBvbmVudHMvQ29tbW9uSGVhZCc7XHJcbmltcG9ydCBBcmVhTGlua3MgZnJvbSAnLi4vc3JjL2NvbXBvbmVudHMvQXJlYUxpbmtzJztcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcbmV4cG9ydCBjbGFzcyBJbmRleCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcclxuICAgIHN1cGVyKHByb3BzKTtcclxuICAgIHRoaXMuc3RhdGUgPSB7fTtcclxuICB9XHJcbiAgcmVuZGVyKCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgPGRpdj5cclxuICAgICAgICA8Q29tbW9uSGVhZD48L0NvbW1vbkhlYWQ+XHJcbiAgICAgICAgPGRpdiBpZD1cInJvb3RcIiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGUtd3JhcFwiPlxyXG4gICAgICAgICAgICA8aDE+WW9rb2hhbWEgTGFuZHNjYXBlPC9oMT5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhcmVhLWxpbmtzLXdyYXBcIj5cclxuICAgICAgICAgICAgPEFyZWFMaW5rcz48L0FyZWFMaW5rcz5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhYm91dC1saW5rLXdyYXBcIj5cclxuICAgICAgICAgICAgPExpbmsgaHJlZj17e1xyXG4gICAgICAgICAgICAgIHBhdGhuYW1lOiAnL2Fib3V0J1xyXG4gICAgICAgICAgICB9fT5cclxuICAgICAgICAgICAgICA8YSBjbGFzc05hbWU9XCJhYm91dC1saW5rXCI+XHJcbiAgICAgICAgICAgICAgICBBQk9VVFxyXG4gICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZ2x5cGhpY29uIGdseXBoaWNvbi1hcnJvdy1yaWdodFwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPjwvc3Bhbj5cclxuICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgYm9keSB7IFxyXG4gICAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6dXJsKC9zdGF0aWMvaW1nL2JhY2tncm91bmQvaW5kZXguanBnKTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgPHN0eWxlIGpzeD57c3R5bGVzfTwvc3R5bGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxuICB9XHJcbn1cclxuY29uc3Qgc3R5bGVzID0gY3NzYFxyXG4gICNyb290IHtcclxuICAgIHBhZGRpbmctdG9wOiAyMDBweDtcclxuICB9XHJcbiAgQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDgwcHgpe1xyXG4gICAgI3Jvb3Qge1xyXG4gICAgcGFkZGluZy10b3A6IDYwcHg7XHJcbn1cclxuICB9XHJcblxyXG5cclxuICAudGl0bGUtd3JhcCB7XHJcbiAgICB0ZXh0LWFsaWduOmNlbnRlcjtcclxuICAgIG1hcmdpbi1ib3R0b206MjRweDtcclxuICB9XHJcblxyXG4gIGgxIHtcclxuICAgIGNvbG9yOiAjZmZmO1xyXG4gICAgZGlzcGxheTppbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAxMnB4O1xyXG4gICAgZm9udC1zaXplOjYwcHg7XHJcbiAgICBmb250LXdlaWdodDpib2xkO1xyXG4gIH1cclxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCl7XHJcbiAgICBoMXtcclxuICAgIGZvbnQtc2l6ZTogNDhweDtcclxufVxyXG4gIH1cclxuXHJcblxyXG4gIC5hcmVhLWxpbmtzLXdyYXAge1xyXG4gICAgbWF4LXdpZHRoOiAxMDI0cHg7XHJcbiAgICBtYXJnaW46MCBhdXRvO1xyXG4gIH1cclxuLmFib3V0LWxpbmstd3JhcCB7XHJcbiAgcG9zaXRpb246YWJzb2x1dGU7XHJcbiAgdG9wOjA7XHJcbiAgcmlnaHQ6MDtcclxufVxyXG4uYWJvdXQtbGluay13cmFwIGF7XHJcbiAgcGFkZGluZzoxMnB4O1xyXG4gIGRpc3BsYXk6YmxvY2s7XHJcbiAgYmFja2dyb3VuZDojMjYyNjI2O1xyXG59XHJcblxyXG5gO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgSW5kZXgiXX0= */\n/*@ sourceURL=C:\\xampp\\htdocs\\github\\YokohamaLandscape\\pages\\index.js */"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      }, "body{background-image:url(../static/img/background/index.jpg);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxnaXRodWJcXFlva29oYW1hTGFuZHNjYXBlXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUM2QixBQUd1RSx5REFDMUQiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXGdpdGh1YlxcWW9rb2hhbWFMYW5kc2NhcGVcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBSZWFjdERPTSBmcm9tICdyZWFjdC1kb20nO1xyXG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xyXG5pbXBvcnQgX0pTWFN0eWxlIGZyb20gJ3N0eWxlZC1qc3gvc3R5bGUnO1xyXG5pbXBvcnQgY3NzIGZyb20gJ3N0eWxlZC1qc3gvY3NzJztcclxuaW1wb3J0IENvbW1vbkhlYWQgZnJvbSAnLi4vc3JjL2NvbXBvbmVudHMvQ29tbW9uSGVhZCc7XHJcbmltcG9ydCBBcmVhTGlua3MgZnJvbSAnLi4vc3JjL2NvbXBvbmVudHMvQXJlYUxpbmtzJztcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcbmV4cG9ydCBjbGFzcyBJbmRleCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcclxuICAgIHN1cGVyKHByb3BzKTtcclxuICAgIHRoaXMuc3RhdGUgPSB7fTtcclxuICB9XHJcbiAgcmVuZGVyKCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgPGRpdj5cclxuICAgICAgICA8Q29tbW9uSGVhZD48L0NvbW1vbkhlYWQ+XHJcbiAgICAgICAgPGRpdiBpZD1cInJvb3RcIiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGUtd3JhcFwiPlxyXG4gICAgICAgICAgICA8aDE+WW9rb2hhbWEgTGFuZHNjYXBlPC9oMT5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhcmVhLWxpbmtzLXdyYXBcIj5cclxuICAgICAgICAgICAgPEFyZWFMaW5rcz48L0FyZWFMaW5rcz5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhYm91dC1saW5rLXdyYXBcIj5cclxuICAgICAgICAgICAgPExpbmsgaHJlZj17e1xyXG4gICAgICAgICAgICAgIHBhdGhuYW1lOiAnL2Fib3V0J1xyXG4gICAgICAgICAgICB9fT5cclxuICAgICAgICAgICAgICA8YSBjbGFzc05hbWU9XCJhYm91dC1saW5rXCI+XHJcbiAgICAgICAgICAgICAgICBBQk9VVFxyXG4gICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZ2x5cGhpY29uIGdseXBoaWNvbi1hcnJvdy1yaWdodFwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPjwvc3Bhbj5cclxuICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgYm9keSB7IFxyXG4gICAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6dXJsKC4uL3N0YXRpYy9pbWcvYmFja2dyb3VuZC9pbmRleC5qcGcpO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICA8c3R5bGUganN4PntzdHlsZXN9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9kaXY+XHJcbiAgICApO1xyXG4gIH1cclxufVxyXG5jb25zdCBzdHlsZXMgPSBjc3NgXHJcbiAgI3Jvb3Qge1xyXG4gICAgcGFkZGluZy10b3A6IDIwMHB4O1xyXG4gIH1cclxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCl7XHJcbiAgICAjcm9vdCB7XHJcbiAgICBwYWRkaW5nLXRvcDogNjBweDtcclxufVxyXG4gIH1cclxuXHJcblxyXG4gIC50aXRsZS13cmFwIHtcclxuICAgIHRleHQtYWxpZ246Y2VudGVyO1xyXG4gICAgbWFyZ2luLWJvdHRvbToyNHB4O1xyXG4gIH1cclxuXHJcbiAgaDEge1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBkaXNwbGF5OmlubGluZS1ibG9jaztcclxuICAgIHBhZGRpbmc6IDEycHg7XHJcbiAgICBmb250LXNpemU6NjBweDtcclxuICAgIGZvbnQtd2VpZ2h0OmJvbGQ7XHJcbiAgfVxyXG4gIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KXtcclxuICAgIGgxe1xyXG4gICAgZm9udC1zaXplOiA0OHB4O1xyXG59XHJcbiAgfVxyXG5cclxuXHJcbiAgLmFyZWEtbGlua3Mtd3JhcCB7XHJcbiAgICBtYXgtd2lkdGg6IDEwMjRweDtcclxuICAgIG1hcmdpbjowIGF1dG87XHJcbiAgfVxyXG4uYWJvdXQtbGluay13cmFwIHtcclxuICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICB0b3A6MDtcclxuICByaWdodDowO1xyXG59XHJcbi5hYm91dC1saW5rLXdyYXAgYXtcclxuICBwYWRkaW5nOjEycHg7XHJcbiAgZGlzcGxheTpibG9jaztcclxuICBiYWNrZ3JvdW5kOiMyNjI2MjY7XHJcbn1cclxuXHJcbmA7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBJbmRleCJdfQ== */\n/*@ sourceURL=C:\\xampp\\htdocs\\github\\YokohamaLandscape\\pages\\index.js */"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_8___default.a, {
         id: styles.__hash,
         __self: this
       }, styles)));
@@ -11711,19 +11711,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
 
 
 var _jsxFileName = "C:\\xampp\\htdocs\\github\\YokohamaLandscape\\src\\components\\CommonHead.js";
-
 
 
 var CommonHead =
@@ -11740,46 +11737,48 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(CommonHead, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
-        className: "jsx-980399656",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
         },
         __self: this
-      }, this.props.title), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+      }, this.props.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "viewport",
         content: "initial-scale=1.0, width=device-width",
-        className: "jsx-980399656",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
-        className: "jsx-980399656",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "980399656",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "../static/css/common.css",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
         __self: this
-      }, "*{margin:0;padding:0;font-family:\"\u6E38\u30B4\u30B7\u30C3\u30AF Medium\",YuGothic,YuGothicM,\"Hiragino Kaku Gothic ProN\",\"Hiragino Kaku Gothic Pro\",\u30E1\u30A4\u30EA\u30AA,Meiryo,sans-serif;}body{background-color:#262626;}html,body,#__next,#__next>div{height:100%;color:#d9d9d9;background-size:cover;background-position:center;background-repeat:no-repeat;position:relative;background-attachment:fixed;}a{color:#d9d9d9;-webkit-transition:all 200ms;transition:all 200ms;}a:visited{color:#d9d9d9;}a:active,a:hover{color:#b7b7b7;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxnaXRodWJcXFlva29oYW1hTGFuZHNjYXBlXFxzcmNcXGNvbXBvbmVudHNcXENvbW1vbkhlYWQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWW1DLEFBR1csQUFNZ0IsQUFJYixBQVVFLEFBS0EsQUFJRCxTQTVCSCxHQVVJLEVBVU8sQUFLdEIsQUFJcUIsS0E1QnVHLE1BSzVILENBS3VCLHNCQUNLLGdCQVM1QixBQVNBLFdBakI2Qiw0QkFDVixrQkFDVSxzQkFiN0IsTUFjQSIsImZpbGUiOiJDOlxceGFtcHBcXGh0ZG9jc1xcZ2l0aHViXFxZb2tvaGFtYUxhbmRzY2FwZVxcc3JjXFxjb21wb25lbnRzXFxDb21tb25IZWFkLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcclxuXHJcbmV4cG9ydCBjbGFzcyBDb21tb25IZWFkIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcclxuICAgIGNvbnN0cnVjdG9yKHByb3BzKSB7XHJcbiAgICAgICAgc3VwZXIocHJvcHMpO1xyXG4gICAgfVxyXG4gICAgcmVuZGVyKCkge1xyXG4gICAgICAgIHJldHVybiAoXHJcbiAgICAgICAgICAgIDxIZWFkPlxyXG4gICAgICAgICAgICAgICAgPHRpdGxlPnt0aGlzLnByb3BzLnRpdGxlfTwvdGl0bGU+XHJcbiAgICAgICAgICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwiaW5pdGlhbC1zY2FsZT0xLjAsIHdpZHRoPWRldmljZS13aWR0aFwiIC8+XHJcbiAgICAgICAgICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN0cmFwLzMuMy43L2Nzcy9ib290c3RyYXAubWluLmNzc1wiPjwvbGluaz5cclxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICoge1xyXG5cdG1hcmdpbjogMDtcclxuXHRwYWRkaW5nOiAwO1xyXG5cdGZvbnQtZmFtaWx5Olwi5ri444K044K344OD44KvIE1lZGl1bVwiLFl1R290aGljLFl1R290aGljTSxcIkhpcmFnaW5vIEtha3UgR290aGljIFByb05cIixcIkhpcmFnaW5vIEtha3UgR290aGljIFByb1wiLOODoeOCpOODquOCqixNZWlyeW8sc2Fucy1zZXJpZjtcclxufVxyXG5cclxuYm9keSB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogIzI2MjYyNjtcclxufVxyXG5cclxuaHRtbCwgYm9keSwgI19fbmV4dCwgI19fbmV4dCA+IGRpdiB7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG5cdGNvbG9yOiAjZDlkOWQ5O1xyXG5cdGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcblx0YmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG5cdGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdGJhY2tncm91bmQtYXR0YWNobWVudDogZml4ZWQ7XHJcbn1cclxuXHJcbmEge1xyXG5cdGNvbG9yOiAjZDlkOWQ5O1xyXG5cdHRyYW5zaXRpb246IGFsbCAyMDBtcztcclxufVxyXG5cclxuYTp2aXNpdGVkIHtcclxuXHRjb2xvcjogI2Q5ZDlkOTtcclxufVxyXG5cclxuYTphY3RpdmUsIGE6aG92ZXIge1xyXG5cdGNvbG9yOiNiN2I3Yjc7XHJcblx0dGV4dC1kZWNvcmF0aW9uOm5vbmU7XHJcbn1cclxuXHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgIDwvSGVhZD5cclxuICAgICAgICApO1xyXG4gICAgfVxyXG59XHJcblxyXG5Db21tb25IZWFkLmRlZmF1bHRQcm9wcyA9IHtcclxuICAgIHRpdGxlOiAnWW9rb2hhbWEgTGFuZHNjYXBlJyxcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgQ29tbW9uSGVhZDsiXX0= */\n/*@ sourceURL=C:\\xampp\\htdocs\\github\\YokohamaLandscape\\src\\components\\CommonHead.js */"));
+      }));
     }
   }]);
 
   return CommonHead;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 CommonHead.defaultProps = {
   title: 'Yokohama Landscape'
 };
