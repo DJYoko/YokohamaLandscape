@@ -23,6 +23,10 @@ a {
 	transition: all 200ms;
 }
 
+a:visited {
+	color: #d9d9d9;
+}
+
 a:active, a:hover {
 	color:#b7b7b7;
 	text-decoration:none;
