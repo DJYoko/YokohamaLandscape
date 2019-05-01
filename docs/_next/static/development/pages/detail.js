@@ -11611,6 +11611,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _next_config__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../next.config */ "./next.config.js");
+/* harmony import */ var _next_config__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_next_config__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -11620,6 +11622,8 @@ var _jsxFileName = "C:\\xampp\\htdocs\\github\\YokohamaLandscape\\src\\component
 
 
 
+
+var ROOT = _next_config__WEBPACK_IMPORTED_MODULE_8___default.a.assetPrefix === '' ? '/' : _next_config__WEBPACK_IMPORTED_MODULE_8___default.a.assetPrefix;
 var BackLink =
 /*#__PURE__*/
 function (_React$Component) {
@@ -11638,23 +11642,23 @@ function (_React$Component) {
         className: "jsx-".concat(styles.__hash) + " " + "back-link-area",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 14
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: {
-          pathname: '/'
+          pathname: ROOT
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "jsx-".concat(styles.__hash) + " " + "back-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 18
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
@@ -11662,7 +11666,7 @@ function (_React$Component) {
         className: "jsx-".concat(styles.__hash) + " " + "glyphicon glyphicon-arrow-left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 19
         },
         __self: this
       }), "Back")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
