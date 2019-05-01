@@ -6,6 +6,7 @@ import CommonHead from '../src/components/CommonHead';
 import BackLink from '../src/components/BackLink';
 import DescriptionBox from '../src/components/DescriptionBox';
 import CONFIG from '../next.config';
+import { get } from 'http';
 const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class detail extends React.Component {
@@ -18,7 +19,8 @@ export class detail extends React.Component {
   }
   render() {
     console.log(this.props.query.name);
-    const areaData = this.getAreaData(this.props.query.name);
+    const queryName = (this.props.query.name) ? this.props.query.name : this.getUrlParams()['name'];
+    const areaData = this.getAreaData(queryName);
     if (areaData !== null) {
       this.setAreaData(areaData);
       return this.renderDefault();
@@ -69,6 +71,18 @@ export class detail extends React.Component {
   }
   getBackgroundImagePath() {
     return ROOT + 'static/img/background/' + this.state.img;
+  }
+  getUrlParams() {
+    const url = window.location.search;
+    const vars = [];
+    const hash = url.slice(1).split('&');
+    const max = hash.length;
+    hash.forEach((element) => {
+      array = element.split('=');
+      vars.push(array[0]);
+      vars[array[0]] = array[1];
+    });
+    return vars;
   }
 }
 
