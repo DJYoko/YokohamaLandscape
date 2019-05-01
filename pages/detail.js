@@ -6,6 +6,7 @@ import CommonHead from '../src/components/CommonHead';
 import BackLink from '../src/components/BackLink';
 import DescriptionBox from '../src/components/DescriptionBox';
 import CONFIG from '../next.config';
+const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class detail extends React.Component {
   constructor(props) {
@@ -66,7 +67,6 @@ export class detail extends React.Component {
     )
   }
   getBackgroundImagePath() {
-    const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
     return ROOT + 'static/img/background/' + this.state.img;
   }
 }

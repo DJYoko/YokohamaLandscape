@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import CONFIG from '../../next.config';
+const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class CommonHead extends React.Component {
     constructor(props) {
         super(props);
     }
     render() {
-        const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
         return (
             <Head>
                 <title>{this.props.title}</title>

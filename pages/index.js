@@ -5,6 +5,7 @@ import CommonHead from '../src/components/CommonHead';
 import AreaLinks from '../src/components/AreaLinks';
 import Link from 'next/link';
 import CONFIG from '../next.config';
+const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class Index extends React.Component {
   constructor(props) {
@@ -43,7 +44,6 @@ export class Index extends React.Component {
     );
   }
   getBackgroundImageStyle() {
-    const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
     return ROOT + 'static/img/background/index.jpg';
   }
 }

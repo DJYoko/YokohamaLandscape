@@ -3,6 +3,9 @@ import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import CONFIG from '../../../next.config';
+
+const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class AreaLink extends React.Component {
     constructor(props) {
@@ -12,7 +15,7 @@ export class AreaLink extends React.Component {
         return (
             <div className="col-xs-6 col-sm-3">
                 <Link href={{
-                    pathname: '/detail',
+                    pathname: ROOT + 'detail',
                     query: { name: this.props.path }
                 }}>
                     <a className="area-link">
