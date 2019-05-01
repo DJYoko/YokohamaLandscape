@@ -11598,7 +11598,7 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: {
-          pathname: './detail',
+          pathname: './detail/',
           query: {
             name: this.props.path
           }

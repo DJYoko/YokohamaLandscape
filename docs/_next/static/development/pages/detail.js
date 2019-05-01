@@ -6183,20 +6183,20 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail.js!./":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail.js ***!
-  \*****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail%5Cindex.js!./":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail%5Cindex.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/detail", function() {
-      var page = __webpack_require__(/*! ./pages/detail.js */ "./pages/detail.js")
+      var page = __webpack_require__(/*! ./pages/detail/index.js */ "./pages/detail/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/detail.js */ "./pages/detail.js", function() {
+        module.hot.accept(/*! ./pages/detail/index.js */ "./pages/detail/index.js", function() {
           if(!next.router.components["/detail"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/detail.js */ "./pages/detail.js")
+          var updatedPage = __webpack_require__(/*! ./pages/detail/index.js */ "./pages/detail/index.js")
           next.router.update("/detail", updatedPage.default || updatedPage)
         })
       }
@@ -11385,10 +11385,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/detail.js":
-/*!*************************!*\
-  !*** ./pages/detail.js ***!
-  \*************************/
+/***/ "./pages/detail/index.js":
+/*!*******************************!*\
+  !*** ./pages/detail/index.js ***!
+  \*******************************/
 /*! exports provided: detail, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11404,18 +11404,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _src_data_Areas__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../src/data/Areas */ "./src/data/Areas.js");
-/* harmony import */ var _src_components_CommonHead__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../src/components/CommonHead */ "./src/components/CommonHead.js");
-/* harmony import */ var _src_components_BackLink__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../src/components/BackLink */ "./src/components/BackLink.js");
-/* harmony import */ var _src_components_DescriptionBox__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../src/components/DescriptionBox */ "./src/components/DescriptionBox.js");
-/* harmony import */ var _next_config__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../next.config */ "./next.config.js");
+/* harmony import */ var _src_data_Areas__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../src/data/Areas */ "./src/data/Areas.js");
+/* harmony import */ var _src_components_CommonHead__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../src/components/CommonHead */ "./src/components/CommonHead.js");
+/* harmony import */ var _src_components_BackLink__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../src/components/BackLink */ "./src/components/BackLink.js");
+/* harmony import */ var _src_components_DescriptionBox__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../src/components/DescriptionBox */ "./src/components/DescriptionBox.js");
+/* harmony import */ var _next_config__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../next.config */ "./next.config.js");
 /* harmony import */ var _next_config__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_next_config__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
 
 
-var _jsxFileName = "C:\\xampp\\htdocs\\github\\YokohamaLandscape\\pages\\detail.js";
+var _jsxFileName = "C:\\xampp\\htdocs\\github\\YokohamaLandscape\\pages\\detail\\index.js";
 
 
 
@@ -11895,13 +11895,13 @@ var Areas = [{
 /***/ }),
 
 /***/ 1:
-/*!*********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail.js ***!
-  \*********************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail%5Cindex.js ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdetail&absolutePagePath=C%3A%5Cxampp%5Chtdocs%5Cgithub%5CYokohamaLandscape%5Cpages%5Cdetail%5Cindex.js!./");
 
 
 /***/ }),
