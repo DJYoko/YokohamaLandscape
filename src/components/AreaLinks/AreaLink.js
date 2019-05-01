@@ -12,7 +12,7 @@ export class AreaLink extends React.Component {
         return (
             <div className="col-xs-6 col-sm-3">
                 <Link href={{
-                    pathname: './detail/',
+                    pathname: './detail',
                     query: { name: this.props.path }
                 }}>
                     <a className="area-link">

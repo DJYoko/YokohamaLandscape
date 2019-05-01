@@ -25,7 +25,7 @@ export class Index extends React.Component {
           </div>
           <div className="about-link-wrap">
             <Link href={{
-              pathname: './about/'
+              pathname: './about'
             }}>
               <a className="about-link">
                 ABOUT

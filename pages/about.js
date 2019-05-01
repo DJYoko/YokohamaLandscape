@@ -1,9 +1,9 @@
 import React from 'react';
 import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
-import CommonHead from '../../src/components/CommonHead';
-import BackLink from '../../src/components/BackLink';
-import CONFIG from '../../next.config';
+import CommonHead from '../src/components/CommonHead';
+import BackLink from '../src/components/BackLink';
+import CONFIG from '../next.config';
 const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class About extends React.Component {
