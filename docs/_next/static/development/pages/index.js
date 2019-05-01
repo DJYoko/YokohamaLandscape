@@ -1,5 +1,21 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./next.config.js":
+/*!************************!*\
+  !*** ./next.config.js ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = {
+  assetPrefix:  false ? undefined : '/'
+};
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -11715,12 +11731,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _next_config__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../next.config */ "./next.config.js");
+/* harmony import */ var _next_config__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_next_config__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
 
 
 var _jsxFileName = "C:\\xampp\\htdocs\\github\\YokohamaLandscape\\src\\components\\CommonHead.js";
+
 
 
 var CommonHead =
@@ -11740,13 +11759,13 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }, this.props.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
@@ -11754,7 +11773,7 @@ function (_React$Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
@@ -11762,15 +11781,15 @@ function (_React$Component) {
         href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "../static/css/common.css",
+        href: _next_config__WEBPACK_IMPORTED_MODULE_7___default.a.assetPrefix + 'static/css/common.css',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         },
         __self: this
       }));
