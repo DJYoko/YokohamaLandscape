@@ -13,7 +13,7 @@ export class About extends React.Component {
   render() {
     return (
       <div>
-        <CommonHead></CommonHead>
+        <CommonHead title="ABOUT"></CommonHead>
         <div id="root">
           <div className="container text-left">
             <div className="back-link-wrap">
