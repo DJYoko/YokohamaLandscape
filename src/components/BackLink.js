@@ -2,6 +2,8 @@ import React from 'react';
 import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
 import Link from 'next/link';
+import CONFIG from '../../next.config';
+const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class BackLink extends React.Component {
     constructor(props) {
@@ -11,7 +13,7 @@ export class BackLink extends React.Component {
         return (
             <div className="back-link-area">
                 <Link href={{
-                    pathname: '/'
+                    pathname: ROOT
                 }}>
                     <a className="back-link">
                         <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
