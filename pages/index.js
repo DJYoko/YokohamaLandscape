@@ -6,6 +6,7 @@ import css from 'styled-jsx/css';
 import CommonHead from '../src/components/CommonHead';
 import AreaLinks from '../src/components/AreaLinks';
 import Link from 'next/link';
+import CONFIG from '../next.config';
 
 export class Index extends React.Component {
   constructor(props) {
@@ -35,13 +36,17 @@ export class Index extends React.Component {
           </div>
           <style jsx global>{`
             body { 
-              background-image:url(../static/img/background/index.jpg);
+              background-image:url( ${this.getBackgroundImageStyle()} );
             }
           `}</style>
           <style jsx>{styles}</style>
         </div>
       </div>
     );
+  }
+  getBackgroundImageStyle() {
+    const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
+    return ROOT + 'static/img/background/index.jpg';
   }
 }
 const styles = css`

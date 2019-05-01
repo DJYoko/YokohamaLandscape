@@ -8,6 +8,7 @@ import Link from 'next/link';
 import CommonHead from '../src/components/CommonHead';
 import BackLink from '../src/components/BackLink';
 import DescriptionBox from '../src/components/DescriptionBox';
+import CONFIG from '../next.config';
 
 export class detail extends React.Component {
   constructor(props) {
@@ -41,7 +42,7 @@ export class detail extends React.Component {
   }
   renderDefault() {
     return (
-      <div className="pageRoot" style={{ backgroundImage: this.getBackgroundImageStyle() }}>
+      <div className="pageRoot" style={{ backgroundImage: `url( ${this.getBackgroundImagePath()} )` }}>
         <CommonHead></CommonHead>
         <div className="container">
           <div className="back-link-wrap">
@@ -67,8 +68,9 @@ export class detail extends React.Component {
       </div>
     )
   }
-  getBackgroundImageStyle() {
-    return 'url(../static/img/background/' + this.state.img + ')';
+  getBackgroundImagePath() {
+    const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
+    return ROOT + 'static/img/background/' + this.state.img;
   }
 }
 

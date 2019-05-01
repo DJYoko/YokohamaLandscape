@@ -5,6 +5,7 @@ import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
 import CommonHead from '../src/components/CommonHead';
 import BackLink from '../src/components/BackLink';
+import CONFIG from '../next.config';
 
 export class About extends React.Component {
   constructor(props) {
@@ -44,10 +45,22 @@ export class About extends React.Component {
                 </ul>
             </div>
           </div>
+          <style jsx global>{`
+            body {
+              background-color: #000;
+            }
+             #root:before {
+              background-image:url( ${this.getBackgroundImagePath()} );
+            }
+          `}</style>
           <style jsx>{styles}</style>
         </div>
       </div>
     );
+  }
+  getBackgroundImagePath () {
+    const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
+    return ROOT + 'static/img/background/index.jpg';
   }
 }
 const styles = css`
@@ -61,7 +74,6 @@ const styles = css`
     position:absolute;
     left:0;
     top:0;
-    background-image:url(../static/img/background/index.jpg);
     filter: blur(5px);
     opacity:0.5;
   }
