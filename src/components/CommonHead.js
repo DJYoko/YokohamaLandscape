@@ -6,12 +6,13 @@ export class CommonHead extends React.Component {
         super(props);
     }
     render() {
+        const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
         return (
             <Head>
                 <title>{this.props.title}</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-                <link rel="stylesheet" href={CONFIG.assetPrefix + 'static/css/common.css'}></link>
+                <link rel="stylesheet" href={ROOT + 'static/css/common.css'}></link>
             </Head>
         );
     }
