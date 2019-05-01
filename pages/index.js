@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
 import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
 import CommonHead from '../src/components/CommonHead';
@@ -58,8 +56,6 @@ const styles = css`
     padding-top: 60px;
 }
   }
-
-
   .title-wrap {
     text-align:center;
     margin-bottom:24px;
