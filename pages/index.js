@@ -75,7 +75,6 @@ const styles = css`
     display:inline-block;
     padding: 12px;
     font-size:60px;
-    font-weight:bold;
   }
   @media screen and (max-width: 480px){
     h1{
