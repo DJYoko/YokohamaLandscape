@@ -26,6 +26,7 @@ const styles = css`
     background:rgba(0,0,0,0.9);
     max-width:480px;
     border-radius:4px;
+    word-break:break-all;
     }
     h1 {
     margin-top:0;
