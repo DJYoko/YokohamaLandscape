@@ -54,7 +54,7 @@ const Areas = [
         'annotation': '',
     },
     {
-        'path': 'Yamashita Park',
+        'path': 'YamashitaPark',
         'description': 'Yamashita Park (山下公園 Yamashita Kōen) is a public park in Naka Ward, Yokohama, Japan, famous for its waterfront views of the Port of Yokohama.',
         'title': 'Yamashita Park',
         'img': '1280px-Hikawamaru_from_Osanbashi_Pier.jpg',
