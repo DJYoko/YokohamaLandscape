@@ -6,6 +6,7 @@ const Areas = [
         'img': 'photo-1543932950-76d6b4a4d557.jpg',
         'authImg': 'https://unsplash.com/photos/O2UgB8l3EG8',
         'authText': 'https://en.wikipedia.org/wiki/Yokohama_Station',
+        'annotation': '',
     },
     {
         'path': 'MinatoMirai21',
@@ -14,6 +15,7 @@ const Areas = [
         'img': 'DSCF5767_TP_V.jpg',
         'authImg': 'https://www.pakutaso.com/20160338061post-7109.html',
         'authText': 'https://en.wikipedia.org/wiki/Minato_Mirai_21',
+        'annotation': '',
     },
     {
         'path': 'RedBrickWarehouses',
@@ -22,6 +24,7 @@ const Areas = [
         'img': 'C778_rtsaretaakarenga_TP_V.jpg',
         'authImg': 'https://www.pakutaso.com/20121246360post-2272.html',
         'authText': 'https://en.wikipedia.org/wiki/Yokohama_Red_Brick_Warehouse',
+        'annotation': '',
     },
     {
         'path': 'YokohamaPortOpeningMemorialHall',
@@ -39,6 +42,7 @@ const Areas = [
         'img': 'photo-1530569243640-22bea3e23e1b.jpg',
         'authImg': 'https://unsplash.com/photos/68XG8uaM7d4',
         'authText': 'https://en.wikipedia.org/wiki/Yokohama_Chinatown',
+        'annotation': '',
     },
     {
         'path': 'Motomachi',
@@ -47,6 +51,7 @@ const Areas = [
         'img': 'MotomachiYokohama.jpg',
         'authImg': 'https://en.wikipedia.org/wiki/Motomachi,_Yokohama#/media/File:MotomachiYokohama.JPG',
         'authText': 'https://en.wikipedia.org/wiki/Motomachi,_Yokohama',
+        'annotation': '',
     },
 ];
 

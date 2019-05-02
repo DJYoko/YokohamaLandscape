@@ -31,12 +31,7 @@ export class detail extends React.Component {
     return (filteredAreas.length > 0) ? filteredAreas[0] : null;
   }
   setAreaData(areaData) {
-    this.setState({
-      path : areaData.path,
-      description : areaData.description,
-      title : areaData.title,
-      img : areaData.img,
-    });
+    this.setState(areaData);
     return this.state;
   }
   renderDefault() {
@@ -47,7 +42,13 @@ export class detail extends React.Component {
           <div className="back-link-wrap">
             <BackLink></BackLink>
           </div>
-          <DescriptionBox title={this.state.title} description={this.state.description}></DescriptionBox>
+          <DescriptionBox
+            title={this.state.title}
+            description={this.state.description}
+            authText={this.state.authText}
+            authImg={this.state.authImg}
+            annotation={this.state.annotation}>
+          </DescriptionBox>
         </div>
         <style jsx>{styles}</style>
       </div>

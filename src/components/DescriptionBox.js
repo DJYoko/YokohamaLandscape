@@ -11,6 +11,9 @@ export class DescriptionBox extends React.Component {
             <div className="descrition-box">
                 <h1>{this.props.title}</h1>
                 <p>{this.props.description}</p>
+                <hr></hr>
+                <p>text source<br />{this.props.authText}</p>
+                <p>Photo source<br />{this.props.authImg}</p>
                 <style jsx>{styles}</style>
             </div>
         );
@@ -18,18 +21,15 @@ export class DescriptionBox extends React.Component {
 }
 
 const styles = css`
-.descrition-box {
-  padding: 24px;
-  background:rgba(0,0,0,0.9);
-  max-width:440px;
-  border-radius:4px;
-}
-h1 {
-  margin-top:0;
-}
-p {
-  margin-bottom: 0;
-}
+    .descrition-box {
+    padding: 24px 24px 14px;
+    background:rgba(0,0,0,0.9);
+    max-width:480px;
+    border-radius:4px;
+    }
+    h1 {
+    margin-top:0;
+    }
 `;
 
 export default DescriptionBox;
