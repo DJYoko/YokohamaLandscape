@@ -29,7 +29,7 @@ export class Index extends React.Component {
             }}>
               <a className="about-link">
                 ABOUT
-                <span className="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
               </a>
             </Link>
           </div>
@@ -86,7 +86,7 @@ const styles = css`
 
   .area-links-wrap {
     max-width: 1024px;
-    margin:0 auto;
+    margin:100px auto 100px;
   }
 .about-link-wrap {
   position:absolute;
@@ -99,8 +99,8 @@ const styles = css`
   background:#262626;
 }
 
-.auth-link-wrap{
-  margin-top:100px;
+.about-link-wrap span{
+  margin-left:4px;
 }
 
 .auth-link{

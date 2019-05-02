@@ -16,7 +16,7 @@ export class BackLink extends React.Component {
                     pathname: ROOT
                 }}>
                     <a className="back-link">
-                        <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+                        <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         Back
                 </a>
                 </Link>
@@ -33,7 +33,7 @@ const styles = css`
     }
     .back-link {
         color: #d9d9d9;
-        background: rgba(0,0,0,0.25);
+        background: rgba(0,0,0,0.9);
         display:block;
         padding: 8px;
         text-align:center;

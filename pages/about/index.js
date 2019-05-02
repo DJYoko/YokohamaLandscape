@@ -72,8 +72,8 @@ const styles = css`
     position:absolute;
     left:0;
     top:0;
-    filter: blur(5px);
-    opacity:0.5;
+    filter: blur(8px);
+    opacity:0.7;
   }
    .container {
      position:relative;
