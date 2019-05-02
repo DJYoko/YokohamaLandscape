@@ -29,6 +29,12 @@ const Areas = [
         'title': 'Yokohama Chinatown',
         'img': 'photo-1530569243640-22bea3e23e1b.jpg',
     },
+    {
+        'path': 'Motomachi',
+        'description': 'Motomachi (元町) is a district of Naka Ward in Yokohama, Japan, located immediately west of Yamate and east of Chinatown. It consists mainly of the Motomachi Shopping Street, a five-block long stretch of boutiques and shops, well known in Japan for its cosmopolitan atmosphere, original fashion, and Western influence.',
+        'title': 'Motomachi',
+        'img': 'MotomachiYokohama.jpg',
+    },
 ];
 
 export default Areas
