@@ -33,6 +33,15 @@ export class Index extends React.Component {
               </a>
             </Link>
           </div>
+          <div className="auth-link-wrap text-right">
+            <Link href={{
+              pathname: 'https://www.pakutaso.com/20150850219hdr.html'
+            }}>
+              <a className="auth-link" target="_blank">
+                background photo author
+              </a>
+            </Link>              
+          </div>
           <style jsx global>{`
             body { 
               background-image:url( ${this.getBackgroundImageStyle()} );
@@ -90,6 +99,15 @@ const styles = css`
   background:#262626;
 }
 
+.auth-link-wrap{
+  margin-top:100px;
+}
+
+.auth-link{
+  background-color:rgba(0,0,0,0.75);
+  display:inline-block;
+  padding: 4px;
+}
 `;
 
 export default Index
