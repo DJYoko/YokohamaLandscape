@@ -11513,16 +11513,40 @@ function (_React$Component) {
         __self: this
       }, "ABOUT", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         "aria-hidden": "true",
-        className: "jsx-1535014952 " + "jsx-".concat(styles.__hash) + " " + "glyphicon glyphicon-arrow-right",
+        className: "jsx-1535014952 " + "jsx-".concat(styles.__hash) + " " + "glyphicon glyphicon-chevron-right",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "jsx-1535014952 " + "jsx-".concat(styles.__hash) + " " + "auth-link-wrap text-right",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        href: {
+          pathname: 'https://www.pakutaso.com/20150850219hdr.html'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        target: "_blank",
+        className: "jsx-1535014952 " + "jsx-".concat(styles.__hash) + " " + "auth-link",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, "background photo author"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
         id: "1535014952",
         __self: this
-      }, "body{background-image:url( ".concat(this.getBackgroundImageStyle(), " );}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxnaXRodWJcXFlva29oYW1hTGFuZHNjYXBlXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUM2QixBQUdtRSxxREFDdEQiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXGdpdGh1YlxcWW9rb2hhbWFMYW5kc2NhcGVcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBfSlNYU3R5bGUgZnJvbSAnc3R5bGVkLWpzeC9zdHlsZSc7XHJcbmltcG9ydCBjc3MgZnJvbSAnc3R5bGVkLWpzeC9jc3MnO1xyXG5pbXBvcnQgQ29tbW9uSGVhZCBmcm9tICcuLi9zcmMvY29tcG9uZW50cy9Db21tb25IZWFkJztcclxuaW1wb3J0IEFyZWFMaW5rcyBmcm9tICcuLi9zcmMvY29tcG9uZW50cy9BcmVhTGlua3MnO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5pbXBvcnQgQ09ORklHIGZyb20gJy4uL25leHQuY29uZmlnJztcclxuY29uc3QgUk9PVCA9IChDT05GSUcuYXNzZXRQcmVmaXggPT09ICcnKSA/ICcvJyA6IENPTkZJRy5hc3NldFByZWZpeDtcclxuXHJcbmV4cG9ydCBjbGFzcyBJbmRleCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcclxuICAgIHN1cGVyKHByb3BzKTtcclxuICAgIHRoaXMuc3RhdGUgPSB7fTtcclxuICB9XHJcbiAgcmVuZGVyKCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgPGRpdj5cclxuICAgICAgICA8Q29tbW9uSGVhZD48L0NvbW1vbkhlYWQ+XHJcbiAgICAgICAgPGRpdiBpZD1cInJvb3RcIiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGUtd3JhcFwiPlxyXG4gICAgICAgICAgICA8aDE+WW9rb2hhbWEgTGFuZHNjYXBlPC9oMT5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhcmVhLWxpbmtzLXdyYXBcIj5cclxuICAgICAgICAgICAgPEFyZWFMaW5rcz48L0FyZWFMaW5rcz5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhYm91dC1saW5rLXdyYXBcIj5cclxuICAgICAgICAgICAgPExpbmsgaHJlZj17e1xyXG4gICAgICAgICAgICAgIHBhdGhuYW1lOiAnLi9hYm91dC8nXHJcbiAgICAgICAgICAgIH19PlxyXG4gICAgICAgICAgICAgIDxhIGNsYXNzTmFtZT1cImFib3V0LWxpbmtcIj5cclxuICAgICAgICAgICAgICAgIEFCT1VUXHJcbiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJnbHlwaGljb24gZ2x5cGhpY29uLWFycm93LXJpZ2h0XCIgYXJpYS1oaWRkZW49XCJ0cnVlXCI+PC9zcGFuPlxyXG4gICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxyXG4gICAgICAgICAgICBib2R5IHsgXHJcbiAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTp1cmwoICR7dGhpcy5nZXRCYWNrZ3JvdW5kSW1hZ2VTdHlsZSgpfSApO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICA8c3R5bGUganN4PntzdHlsZXN9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9kaXY+XHJcbiAgICApO1xyXG4gIH1cclxuICBnZXRCYWNrZ3JvdW5kSW1hZ2VTdHlsZSgpIHtcclxuICAgIHJldHVybiBST09UICsgJ3N0YXRpYy9pbWcvYmFja2dyb3VuZC9pbmRleC5qcGcnO1xyXG4gIH1cclxufVxyXG5jb25zdCBzdHlsZXMgPSBjc3NgXHJcbiAgI3Jvb3Qge1xyXG4gICAgcGFkZGluZy10b3A6IDIwMHB4O1xyXG4gIH1cclxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCl7XHJcbiAgICAjcm9vdCB7XHJcbiAgICBwYWRkaW5nLXRvcDogNjBweDtcclxufVxyXG4gIH1cclxuICAudGl0bGUtd3JhcCB7XHJcbiAgICB0ZXh0LWFsaWduOmNlbnRlcjtcclxuICAgIG1hcmdpbi1ib3R0b206MjRweDtcclxuICB9XHJcblxyXG4gIGgxIHtcclxuICAgIGNvbG9yOiAjZmZmO1xyXG4gICAgZGlzcGxheTppbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAxMnB4O1xyXG4gICAgZm9udC1zaXplOjYwcHg7XHJcbiAgICBmb250LXdlaWdodDpib2xkO1xyXG4gIH1cclxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCl7XHJcbiAgICBoMXtcclxuICAgIGZvbnQtc2l6ZTogNDhweDtcclxufVxyXG4gIH1cclxuXHJcblxyXG4gIC5hcmVhLWxpbmtzLXdyYXAge1xyXG4gICAgbWF4LXdpZHRoOiAxMDI0cHg7XHJcbiAgICBtYXJnaW46MCBhdXRvO1xyXG4gIH1cclxuLmFib3V0LWxpbmstd3JhcCB7XHJcbiAgcG9zaXRpb246YWJzb2x1dGU7XHJcbiAgdG9wOjA7XHJcbiAgcmlnaHQ6MDtcclxufVxyXG4uYWJvdXQtbGluay13cmFwIGF7XHJcbiAgcGFkZGluZzoxMnB4O1xyXG4gIGRpc3BsYXk6YmxvY2s7XHJcbiAgYmFja2dyb3VuZDojMjYyNjI2O1xyXG59XHJcblxyXG5gO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgSW5kZXgiXX0= */\n/*@ sourceURL=C:\\xampp\\htdocs\\github\\YokohamaLandscape\\pages\\index.js */")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, "body{background-image:url( ".concat(this.getBackgroundImageStyle(), " );}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxnaXRodWJcXFlva29oYW1hTGFuZHNjYXBlXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNEM2QixBQUdtRSxxREFDdEQiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXGdpdGh1YlxcWW9rb2hhbWFMYW5kc2NhcGVcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBfSlNYU3R5bGUgZnJvbSAnc3R5bGVkLWpzeC9zdHlsZSc7XHJcbmltcG9ydCBjc3MgZnJvbSAnc3R5bGVkLWpzeC9jc3MnO1xyXG5pbXBvcnQgQ29tbW9uSGVhZCBmcm9tICcuLi9zcmMvY29tcG9uZW50cy9Db21tb25IZWFkJztcclxuaW1wb3J0IEFyZWFMaW5rcyBmcm9tICcuLi9zcmMvY29tcG9uZW50cy9BcmVhTGlua3MnO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5pbXBvcnQgQ09ORklHIGZyb20gJy4uL25leHQuY29uZmlnJztcclxuY29uc3QgUk9PVCA9IChDT05GSUcuYXNzZXRQcmVmaXggPT09ICcnKSA/ICcvJyA6IENPTkZJRy5hc3NldFByZWZpeDtcclxuXHJcbmV4cG9ydCBjbGFzcyBJbmRleCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcclxuICAgIHN1cGVyKHByb3BzKTtcclxuICAgIHRoaXMuc3RhdGUgPSB7fTtcclxuICB9XHJcbiAgcmVuZGVyKCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgPGRpdj5cclxuICAgICAgICA8Q29tbW9uSGVhZD48L0NvbW1vbkhlYWQ+XHJcbiAgICAgICAgPGRpdiBpZD1cInJvb3RcIiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGUtd3JhcFwiPlxyXG4gICAgICAgICAgICA8aDE+WW9rb2hhbWEgTGFuZHNjYXBlPC9oMT5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhcmVhLWxpbmtzLXdyYXBcIj5cclxuICAgICAgICAgICAgPEFyZWFMaW5rcz48L0FyZWFMaW5rcz5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhYm91dC1saW5rLXdyYXBcIj5cclxuICAgICAgICAgICAgPExpbmsgaHJlZj17e1xyXG4gICAgICAgICAgICAgIHBhdGhuYW1lOiAnLi9hYm91dC8nXHJcbiAgICAgICAgICAgIH19PlxyXG4gICAgICAgICAgICAgIDxhIGNsYXNzTmFtZT1cImFib3V0LWxpbmtcIj5cclxuICAgICAgICAgICAgICAgIEFCT1VUXHJcbiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJnbHlwaGljb24gZ2x5cGhpY29uLWNoZXZyb24tcmlnaHRcIiBhcmlhLWhpZGRlbj1cInRydWVcIj48L3NwYW4+XHJcbiAgICAgICAgICAgICAgPC9hPlxyXG4gICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYXV0aC1saW5rLXdyYXAgdGV4dC1yaWdodFwiPlxyXG4gICAgICAgICAgICA8TGluayBocmVmPXt7XHJcbiAgICAgICAgICAgICAgcGF0aG5hbWU6ICdodHRwczovL3d3dy5wYWt1dGFzby5jb20vMjAxNTA4NTAyMTloZHIuaHRtbCdcclxuICAgICAgICAgICAgfX0+XHJcbiAgICAgICAgICAgICAgPGEgY2xhc3NOYW1lPVwiYXV0aC1saW5rXCIgdGFyZ2V0PVwiX2JsYW5rXCI+XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHBob3RvIGF1dGhvclxyXG4gICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgPC9MaW5rPiAgICAgICAgICAgICAgXHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgICAgIGJvZHkgeyBcclxuICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOnVybCggJHt0aGlzLmdldEJhY2tncm91bmRJbWFnZVN0eWxlKCl9ICk7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICAgIDxzdHlsZSBqc3g+e3N0eWxlc308L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgICk7XHJcbiAgfVxyXG4gIGdldEJhY2tncm91bmRJbWFnZVN0eWxlKCkge1xyXG4gICAgcmV0dXJuIFJPT1QgKyAnc3RhdGljL2ltZy9iYWNrZ3JvdW5kL2luZGV4LmpwZyc7XHJcbiAgfVxyXG59XHJcbmNvbnN0IHN0eWxlcyA9IGNzc2BcclxuICAjcm9vdCB7XHJcbiAgICBwYWRkaW5nLXRvcDogMjAwcHg7XHJcbiAgfVxyXG4gIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KXtcclxuICAgICNyb290IHtcclxuICAgIHBhZGRpbmctdG9wOiA2MHB4O1xyXG59XHJcbiAgfVxyXG4gIC50aXRsZS13cmFwIHtcclxuICAgIHRleHQtYWxpZ246Y2VudGVyO1xyXG4gICAgbWFyZ2luLWJvdHRvbToyNHB4O1xyXG4gIH1cclxuXHJcbiAgaDEge1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBkaXNwbGF5OmlubGluZS1ibG9jaztcclxuICAgIHBhZGRpbmc6IDEycHg7XHJcbiAgICBmb250LXNpemU6NjBweDtcclxuICAgIGZvbnQtd2VpZ2h0OmJvbGQ7XHJcbiAgfVxyXG4gIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KXtcclxuICAgIGgxe1xyXG4gICAgZm9udC1zaXplOiA0OHB4O1xyXG59XHJcbiAgfVxyXG5cclxuXHJcbiAgLmFyZWEtbGlua3Mtd3JhcCB7XHJcbiAgICBtYXgtd2lkdGg6IDEwMjRweDtcclxuICAgIG1hcmdpbjoxMDBweCBhdXRvIDEwMHB4O1xyXG4gIH1cclxuLmFib3V0LWxpbmstd3JhcCB7XHJcbiAgcG9zaXRpb246YWJzb2x1dGU7XHJcbiAgdG9wOjA7XHJcbiAgcmlnaHQ6MDtcclxufVxyXG4uYWJvdXQtbGluay13cmFwIGF7XHJcbiAgcGFkZGluZzoxMnB4O1xyXG4gIGRpc3BsYXk6YmxvY2s7XHJcbiAgYmFja2dyb3VuZDojMjYyNjI2O1xyXG59XHJcblxyXG4uYWJvdXQtbGluay13cmFwIHNwYW57XHJcbiAgbWFyZ2luLWxlZnQ6NHB4O1xyXG59XHJcblxyXG4uYXV0aC1saW5re1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiYSgwLDAsMCwwLjc1KTtcclxuICBkaXNwbGF5OmlubGluZS1ibG9jaztcclxuICBwYWRkaW5nOiA0cHg7XHJcbn1cclxuYDtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEluZGV4Il19 */\n/*@ sourceURL=C:\\xampp\\htdocs\\github\\YokohamaLandscape\\pages\\index.js */")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
         id: styles.__hash,
         __self: this
       }, styles)));
@@ -11536,8 +11560,8 @@ function (_React$Component) {
 
   return Index;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-var styles = new String("#root.jsx-2035475490{padding-top:200px;}@media screen and (max-width:480px){#root.jsx-2035475490{padding-top:60px;}}.title-wrap.jsx-2035475490{text-align:center;margin-bottom:24px;}h1.jsx-2035475490{color:#fff;display:inline-block;padding:12px;font-size:60px;font-weight:bold;}@media screen and (max-width:480px){h1.jsx-2035475490{font-size:48px;}}.area-links-wrap.jsx-2035475490{max-width:1024px;margin:0 auto;}.about-link-wrap.jsx-2035475490{position:absolute;top:0;right:0;}.about-link-wrap.jsx-2035475490 a.jsx-2035475490{padding:12px;display:block;background:#262626;}");
-styles.__hash = "2035475490";
+var styles = new String("#root.jsx-1305047118{padding-top:200px;}@media screen and (max-width:480px){#root.jsx-1305047118{padding-top:60px;}}.title-wrap.jsx-1305047118{text-align:center;margin-bottom:24px;}h1.jsx-1305047118{color:#fff;display:inline-block;padding:12px;font-size:60px;font-weight:bold;}@media screen and (max-width:480px){h1.jsx-1305047118{font-size:48px;}}.area-links-wrap.jsx-1305047118{max-width:1024px;margin:100px auto 100px;}.about-link-wrap.jsx-1305047118{position:absolute;top:0;right:0;}.about-link-wrap.jsx-1305047118 a.jsx-1305047118{padding:12px;display:block;background:#262626;}.about-link-wrap.jsx-1305047118 span.jsx-1305047118{margin-left:4px;}.auth-link.jsx-1305047118{background-color:rgba(0,0,0,0.75);display:inline-block;padding:4px;}");
+styles.__hash = "1305047118";
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
@@ -11811,27 +11835,66 @@ var Areas = [{
   'path': 'YokohamaStation',
   'description': 'Yokohama Station (横浜駅 Yokohama-eki) is a major interchange railway station in Nishi-ku, Yokohama, Japan. It is the busiest station in Kanagawa Prefecture and the fifth-busiest in the world as of 2013,[1] serving 760 million passengers a year.',
   'title': 'Yokohama Station',
-  'img': 'photo-1543932950-76d6b4a4d557.jpg'
+  'img': 'photo-1543932950-76d6b4a4d557.jpg',
+  'authImg': 'https://unsplash.com/photos/O2UgB8l3EG8',
+  'authText': 'https://en.wikipedia.org/wiki/Yokohama_Station',
+  'annotation': ''
 }, {
   'path': 'MinatoMirai21',
   'description': 'Minato Mirai 21 (みなとみらい21 Minato Mirai Nijūichi), often known as simply Minato Mirai and abbreviated as MM, is the central business district of Yokohama, Japan. Initially developed in the 1980s, Minato Mirai 21 was designed as a large master-planned development and new urban center planned to connect Yokohama\'s traditionally important areas and commercial centers of Kannai and the Yokohama Station area.',
   'title': 'Minato Mirai 21',
-  'img': 'DSCF5767_TP_V.jpg'
+  'img': 'DSCF5767_TP_V.jpg',
+  'authImg': 'https://www.pakutaso.com/20160338061post-7109.html',
+  'authText': 'https://en.wikipedia.org/wiki/Minato_Mirai_21',
+  'annotation': ''
 }, {
   'path': 'RedBrickWarehouses',
   'description': 'The Yokohama Red Brick Warehouse (横浜赤レンガ倉庫 Yokohama Akarenga Sōko) is a historical building that is used as a complex that includes a shopping mall, banquet hall, and event venues.',
   'title': 'Red Brick Warehouses',
-  'img': 'C778_rtsaretaakarenga_TP_V.jpg'
-}, {
-  'path': 'YokohamaPortOpeningMemorialHall',
-  'description': 'Yokohama City Port Opening Memorial Hall is a historical building located in the Kannai area of Naka Ward, Yokohama City, Kanagawa Prefecture. Important cultural property of the country.',
-  'title': 'Yokohama Port Opening Memorial Hall',
-  'img': 'Yokohama_Port_Opening_Memorial_Hall.jpg'
+  'img': 'C778_rtsaretaakarenga_TP_V.jpg',
+  'authImg': 'https://www.pakutaso.com/20121246360post-2272.html',
+  'authText': 'https://en.wikipedia.org/wiki/Yokohama_Red_Brick_Warehouse',
+  'annotation': ''
 }, {
   'path': 'YokohamaChinatown',
   'description': 'Yokohama Chinatown (Japanese: 横浜中華街, yokohama chūkagai; Simplified Chinese: 横滨中华街; Traditional Chinese: 橫濱中華街; Pinyin: Héngbīn Zhōnghuá Jiē; Cantonese Jyutping: Waang4 ban1 zung1 waa4 gaai1) is located in Yokohama, Japan, which is located just south of Tokyo. ',
   'title': 'Yokohama Chinatown',
-  'img': 'photo-1530569243640-22bea3e23e1b.jpg'
+  'img': 'photo-1530569243640-22bea3e23e1b.jpg',
+  'authImg': 'https://unsplash.com/photos/68XG8uaM7d4',
+  'authText': 'https://en.wikipedia.org/wiki/Yokohama_Chinatown',
+  'annotation': ''
+}, {
+  'path': 'Motomachi',
+  'description': 'Motomachi (元町) is a district of Naka Ward in Yokohama, Japan, located immediately west of Yamate and east of Chinatown. It consists mainly of the Motomachi Shopping Street, a five-block long stretch of boutiques and shops, well known in Japan for its cosmopolitan atmosphere, original fashion, and Western influence.',
+  'title': 'Motomachi',
+  'img': 'MotomachiYokohama.jpg',
+  'authImg': 'https://en.wikipedia.org/wiki/Motomachi,_Yokohama#/media/File:MotomachiYokohama.JPG',
+  'authText': 'https://en.wikipedia.org/wiki/Motomachi,_Yokohama',
+  'annotation': ''
+}, {
+  'path': 'YokohamaBayBridge',
+  'description': 'The Yokohama Bay Bridge (横浜ベイブリッジ Yokohama Bei Buridji) is an 860 metres (2,820 ft) cable stayed bridge in Yokohama, Japan. Opened September 27, 1989, it crosses Tokyo Bay with a span of 460 metres (1,510 feet). The toll is ¥600. The bridge is part of the Bayshore Route of the Shuto Expressway.',
+  'title': 'Yokohama Bay Bridge',
+  'img': '_DSC1332_TP_V.jpg',
+  'authImg': 'https://www.pakutaso.com/20170134018post-10032.html',
+  'authText': 'https://en.wikipedia.org/wiki/Yokohama_Bay_Bridge',
+  'annotation': ''
+}, {
+  'path': 'Yamashita Park',
+  'description': 'Yamashita Park (山下公園 Yamashita Kōen) is a public park in Naka Ward, Yokohama, Japan, famous for its waterfront views of the Port of Yokohama.',
+  'title': 'Yamashita Park',
+  'img': '1280px-Hikawamaru_from_Osanbashi_Pier.jpg',
+  'authImg': 'https://en.wikipedia.org/wiki/Yamashita_Park#/media/File:Hikawamaru_from_Osanbashi_Pier.JPG',
+  'authText': 'https://en.wikipedia.org/wiki/Yamashita_Park',
+  'annotation': ''
+}, {
+  'path': 'YokohamaPortOpeningMemorialHall',
+  'description': 'Yokohama City Port Opening Memorial Hall is a historical building located in the Kannai area of Naka Ward, Yokohama City, Kanagawa Prefecture. Important cultural property of the country.',
+  'title': 'Yokohama Port Opening Memorial Hall',
+  'img': 'Yokohama_Port_Opening_Memorial_Hall.jpg',
+  'authImg': 'https://ja.wikipedia.org/wiki/ファイル:Yokohama_Port_Opening_Memorial_Hall_(8459934101).jpg',
+  'authText': 'https://ja.wikipedia.org/wiki/横浜市開港記念会館',
+  'annotation': 'displayed TEXT in this page is made by [original Text from Wikipedia(JP) + Google Translate].'
 }];
 /* harmony default export */ __webpack_exports__["default"] = (Areas);
 
