@@ -18,9 +18,7 @@ export class detail extends React.Component {
     return { query };
   }
   render() {
-    const areaData = this.getAreaData(this.props.query.name);
-    if (areaData !== null) {
-      this.setAreaData(areaData);
+    if (this.state.path) {
       return this.renderDefault();
     } else {
       return this.renderError();
@@ -33,10 +31,12 @@ export class detail extends React.Component {
     return (filteredAreas.length > 0) ? filteredAreas[0] : null;
   }
   setAreaData(areaData) {
-    this.state.path = areaData.path;
-    this.state.description = areaData.description;
-    this.state.title = areaData.title;
-    this.state.img = areaData.img;
+    this.setState({
+      path : areaData.path,
+      description : areaData.description,
+      title : areaData.title,
+      img : areaData.img,
+    });
     return this.state;
   }
   renderDefault() {
@@ -69,6 +69,13 @@ export class detail extends React.Component {
   }
   getBackgroundImagePath() {
     return ROOT + 'static/img/background/' + this.state.img;
+  }
+  componentDidMount() {
+    const areaName = (this.props.query.name) ? this.props.query.name : location.search.replace('?name=', '');
+    const areaData = this.getAreaData(areaName);
+    if (areaData !== null) {
+      this.setAreaData(areaData);
+    }
   }
 }
 
