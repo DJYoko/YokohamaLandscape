@@ -73,4 +73,4 @@ const Areas = [
     },
 ];
 
-export default Areas
+export default Areas;

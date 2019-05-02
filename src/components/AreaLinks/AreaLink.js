@@ -31,20 +31,20 @@ AreaLink.propTypes = {
 };
 
 const styles = css`
-    .area-link {
-        color: #d9d9d9;
-        background: rgba(0,0,0,0.75);
-        display:block;
-        padding: 24px;
-        text-align:center;
-        border-radius: 4px;
-        margin-bottom:24px;
-    }
+.area-link {
+  color: #d9d9d9;
+  background: rgba(0, 0, 0, 0.75);
+  display: block;
+  padding: 24px;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
 
-    .area-link:hover {
-        color: #262626;
-        background:rgba(255,255,255,0.75);
-    }
+.area-link:hover {
+  color: #262626;
+  background: rgba(255, 255, 255, 0.75);
+}
 `;
 
 export default AreaLink;

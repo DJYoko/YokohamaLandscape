@@ -56,55 +56,55 @@ export class Index extends React.Component {
     return ROOT + 'static/img/background/index.jpg';
   }
 }
+
 const styles = css`
   #root {
-    padding-top: 200px;
-  }
-  @media screen and (max-width: 480px){
-    #root {
+  padding-top: 200px;
+}
+@media screen and (max-width: 480px) {
+  #root {
     padding-top: 60px;
+  }
 }
-  }
-  .title-wrap {
-    text-align:center;
-    margin-bottom:24px;
-  }
+.title-wrap {
+  text-align: center;
+  margin-bottom: 24px;
+}
 
+h1 {
+  color: #fff;
+  display: inline-block;
+  padding: 12px;
+  font-size: 60px;
+}
+@media screen and (max-width: 480px) {
   h1 {
-    color: #fff;
-    display:inline-block;
-    padding: 12px;
-    font-size:60px;
-  }
-  @media screen and (max-width: 480px){
-    h1{
     font-size: 48px;
+  }
 }
-  }
 
-
-  .area-links-wrap {
-    max-width: 1024px;
-    margin:100px auto 100px;
-  }
+.area-links-wrap {
+  max-width: 1024px;
+  margin: 100px auto 100px;
+}
 .about-link-wrap {
-  position:absolute;
-  top:0;
-  right:0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
-.about-link-wrap a{
-  padding:12px;
-  display:block;
-  background:#262626;
-}
-
-.about-link-wrap span{
-  margin-left:4px;
+.about-link-wrap a {
+  padding: 12px;
+  display: block;
+  background: #262626;
 }
 
-.auth-link{
-  background-color:rgba(0,0,0,0.75);
-  display:inline-block;
+.about-link-wrap span {
+  margin-left: 4px;
+}
+
+.auth-link {
+  background-color: rgba(0, 0, 0, 0.75);
+  display: inline-block;
   padding: 4px;
 }
 `;

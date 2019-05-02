@@ -6,7 +6,6 @@ import CommonHead from '../../src/components/CommonHead';
 import BackLink from '../../src/components/BackLink';
 import DescriptionBox from '../../src/components/DescriptionBox';
 import CONFIG from '../../next.config';
-import { get } from 'http';
 const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
 
 export class detail extends React.Component {

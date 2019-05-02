@@ -22,16 +22,16 @@ export class DescriptionBox extends React.Component {
 }
 
 const styles = css`
-    .descrition-box {
-    padding: 24px 24px 14px;
-    background:rgba(0,0,0,0.9);
-    max-width:480px;
-    border-radius:4px;
-    word-break:break-all;
-    }
-    h1 {
-    margin-top:0;
-    }
+.descrition-box {
+  padding: 24px 24px 14px;
+  background: rgba(0, 0, 0, 0.9);
+  max-width: 480px;
+  border-radius: 4px;
+  word-break: break-all;
+}
+h1 {
+  margin-top: 0;
+}
 `;
 
 export default DescriptionBox;

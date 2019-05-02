@@ -38,10 +38,10 @@ export class About extends React.Component {
                 <li>text <a href="https://en.wikipedia.org/wiki/Yokohama" target="_blank">Wikipedia</a></li>
               </ul>
               <hr />
-                <h4>source</h4>
-                <ul>
-                  <li>GitHub <a href="https://github.com/DJYoko/YokohamaLandscape" target="_blank">https://github.com/DJYoko/YokohamaLandscape</a></li>
-                </ul>
+              <h4>source</h4>
+              <ul>
+                <li>GitHub <a href="https://github.com/DJYoko/YokohamaLandscape" target="_blank">https://github.com/DJYoko/YokohamaLandscape</a></li>
+              </ul>
             </div>
           </div>
           <style jsx global>{`
@@ -57,41 +57,45 @@ export class About extends React.Component {
       </div>
     );
   }
-  getBackgroundImagePath () {
+  getBackgroundImagePath() {
     return ROOT + 'static/img/background/index.jpg';
   }
 }
+
 const styles = css`
   #root {
-    height: 100%;
-  }
-  #root:before {
-    content:' ';
-    width:100%;
-    height: 100%;
-    position:absolute;
-    left:0;
-    top:0;
-    filter: blur(8px);
-    opacity:0.7;
-  }
-   .container {
-     position:relative;
-    padding-top: 60px;
+  height: 100%;
 }
 
-  .title-wrap {
-    margin-bottom:24px;
-  }
+#root:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: blur(8px);
+  opacity: 0.7;
+}
 
-  h1 {
-    color: #fff;
-  }
+.container {
+  position: relative;
+  padding-top: 60px;
+}
 
-  .description ul {
-    margin-left: 24px;
-    word-break:break-all;
-  }
+.title-wrap {
+  margin-bottom: 24px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.description ul {
+  margin-left: 24px;
+  word-break: break-all;
+}
+
 `;
 
 export default About
