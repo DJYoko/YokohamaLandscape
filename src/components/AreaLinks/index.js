@@ -7,7 +7,9 @@ export class AreaLinks extends React.Component {
         return (
             <div className="area-links row">
                 {Areas.map((area, index) => (
-                    <AreaLink title={area.title} path={area.path} key={index}></AreaLink>
+                    <div className="col-xs-6 col-sm-3" key={index}>
+                        <AreaLink title={area.title} path={area.path} key={index}></AreaLink>
+                    </div>
                 ))}
             </div>
         );
