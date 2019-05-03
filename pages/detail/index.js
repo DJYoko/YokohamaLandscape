@@ -36,7 +36,7 @@ export class detail extends React.Component {
   renderDefault() {
     return (
       <div className="pageRoot">
-        <CommonHead></CommonHead>
+        <CommonHead title={this.state.title}></CommonHead>
         <div className="container">
           <div className="back-link-wrap">
             <BackLink></BackLink>
