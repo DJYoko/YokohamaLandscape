@@ -10,8 +10,7 @@ export class DescriptionBox extends React.Component {
         return (
             <div className="descrition-box">
                 <h1>{this.props.title}</h1>
-                <p>{this.props.description}
-                    <br />{this.props.annotation}</p>
+                <p>{this.props.description}<br />{this.props.annotation}</p>
                 <hr />
                 <p>Text Source<br />{this.props.authText}</p>
                 <p>Photo Source<br />{this.props.authImg}</p>
