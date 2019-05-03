@@ -35,7 +35,7 @@ export class detail extends React.Component {
   }
   renderDefault() {
     return (
-      <div className="pageRoot" style={{ backgroundImage: `url( ${this.getBackgroundImagePath()} )` }}>
+      <div className="pageRoot">
         <CommonHead></CommonHead>
         <div className="container">
           <div className="back-link-wrap">
@@ -50,6 +50,14 @@ export class detail extends React.Component {
           </DescriptionBox>
         </div>
         <style jsx>{styles}</style>
+        <style jsx global>{`
+            body {
+              background-image:url( ${this.getBackgroundImagePath()} );
+              background-size: cover;
+              background-position: center;
+              background-attachment: fixed;
+            }
+          `}</style>
       </div>
     )
   }
@@ -80,13 +88,9 @@ export class detail extends React.Component {
 }
 
 const styles = css`
-.pageRoot {
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 .container {
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 .back-link-wrap {
   margin-bottom: 12px;

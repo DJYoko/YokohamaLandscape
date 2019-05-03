@@ -74,7 +74,6 @@ const styles = css`
 h1 {
   color: #fff;
   display: inline-block;
-  padding: 12px;
   font-size: 60px;
 }
 @media screen and (max-width: 480px) {

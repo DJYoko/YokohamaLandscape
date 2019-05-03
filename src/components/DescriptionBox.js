@@ -13,8 +13,8 @@ export class DescriptionBox extends React.Component {
                 <p>{this.props.description}
                     <br />{this.props.annotation}</p>
                 <hr />
-                <p>text source<br />{this.props.authText}</p>
-                <p>Photo source<br />{this.props.authImg}</p>
+                <p>Text Source<br />{this.props.authText}</p>
+                <p>Photo Source<br />{this.props.authImg}</p>
                 <style jsx>{styles}</style>
             </div>
         );

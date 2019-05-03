@@ -24,21 +24,21 @@ export class About extends React.Component {
               <h1>About</h1>
             </div>
             <div className="description">
-              <h2>web framework &amp; libraries</h2>
+              <h2>Web Framework &amp; Libraries</h2>
               <ul>
                 <li>React <a href="https://reactjs.org" target="_blank">https://reactjs.org</a></li>
                 <li>Next.js <a href="https://nextjs.org" target="_blank">https://nextjs.org</a></li>
                 <li>Bootstrap <a href="https://getbootstrap.com" target="_blank">https://getbootstrap.com</a></li>
               </ul>
               <hr />
-              <h4>visual materials</h4>
+              <h4>Visual Materials</h4>
               <ul>
-                <li>photos <a href="https://unsplash.com" target="_blank">unsplash.com</a>, <a href="https://www.pakutaso.com" target="_blank">www.pakutaso.com</a>
+                <li>Photos <a href="https://unsplash.com" target="_blank">unsplash.com</a>, <a href="https://www.pakutaso.com" target="_blank">www.pakutaso.com</a>
                 </li>
-                <li>text <a href="https://en.wikipedia.org/wiki/Yokohama" target="_blank">Wikipedia</a></li>
+                <li>Text <a href="https://en.wikipedia.org/wiki/Yokohama" target="_blank">Wikipedia</a></li>
               </ul>
               <hr />
-              <h4>source</h4>
+              <h4>Source</h4>
               <ul>
                 <li>GitHub <a href="https://github.com/DJYoko/YokohamaLandscape" target="_blank">https://github.com/DJYoko/YokohamaLandscape</a></li>
               </ul>
@@ -63,24 +63,28 @@ export class About extends React.Component {
 }
 
 const styles = css`
-  #root {
+#root {
   height: 100%;
 }
 
 #root:before {
   content: " ";
+  position: absolute;
   width: 100%;
   height: 100%;
-  position: absolute;
   left: 0;
   top: 0;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
   filter: blur(8px);
-  opacity: 0.7;
+  opacity: 0.8;
+  transform:scale(1.1);
 }
 
 .container {
   position: relative;
-  padding-top: 60px;
+  padding-top: 24px;
 }
 
 .title-wrap {
@@ -95,7 +99,6 @@ h1 {
   margin-left: 24px;
   word-break: break-all;
 }
-
 `;
 
 export default About

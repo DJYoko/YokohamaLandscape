@@ -35,7 +35,7 @@ const styles = css`
   color: #d9d9d9;
   background: rgba(0, 0, 0, 0.75);
   display: block;
-  padding: 24px;
+  padding: 16px;
   text-align: center;
   border-radius: 4px;
   margin-bottom: 24px;
