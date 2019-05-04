@@ -58,7 +58,7 @@ export class Index extends React.Component {
 }
 
 const styles = css`
-  #root {
+#root {
   padding-top: 200px;
 }
 @media screen and (max-width: 480px) {
@@ -74,7 +74,7 @@ const styles = css`
 h1 {
   color: #fff;
   display: inline-block;
-  font-size: 60px;
+  font-size: 80px;
 }
 @media screen and (max-width: 480px) {
   h1 {

@@ -79,7 +79,6 @@ const styles = css`
   background-repeat:no-repeat;
   filter: blur(8px);
   opacity: 0.8;
-  transform:scale(1.1);
 }
 
 .container {
