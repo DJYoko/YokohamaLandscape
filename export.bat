@@ -1,1 +1,1 @@
-npm run export & type NUL > docs/.nojekyll
+npm run export
