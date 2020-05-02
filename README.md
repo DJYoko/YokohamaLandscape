@@ -10,7 +10,10 @@ DEMO is compiled static HTMLs. it works as SPA.
 ### build command
 
 - run `npm run dev`
-- export `npm run export` => caution!! `.nojekyll` file will be destroyed under the build. => discard the destruction.(DON'T PUSH IT!!)
+- export static HTMLs `npm run export`
+  - this export command executes default Next.js generate files & generate `.nojekyll` under ./docs.
+  - github pages ignore `_UnderbarStart` directory (the first underbar).
+  - to prevent this, `.nojekyll` should be on ./docs directory.
 
 ### framework & libraries
 
