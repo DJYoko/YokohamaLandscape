@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/DJYoko/YokohamaLandscape#readme",
   "devDependencies": {
-    "next": "^9.3.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "dependencies": {
     "serialize-javascript": "^2.1.2",
