@@ -8,7 +8,7 @@ export class DescriptionBox extends React.Component {
     }
     render() {
         return (
-            <div className="descrition-box">
+            <div className="description-box">
                 <h1>{this.props.title}</h1>
                 <p>{this.props.description}<br />{this.props.annotation}</p>
                 <hr />
@@ -21,15 +21,14 @@ export class DescriptionBox extends React.Component {
 }
 
 const styles = css`
-.descrition-box {
-  padding: 24px 24px 14px;
-  background: rgba(0, 0, 0, 0.9);
-  max-width: 480px;
-  border-radius: 4px;
-  word-break: break-all;
+.description-box {
+    padding: 24px 24px 14px;
+    background: rgba(0, 0, 0, 0.75);
+    max-width: 480px;
+    word-break: break-all;
 }
 h1 {
-  margin-top: 0;
+    margin-top: 0;
 }
 `;
 
