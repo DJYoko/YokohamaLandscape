@@ -29,7 +29,7 @@ const Areas = [
     {
         'path': 'YokohamaChinatown',
         'description': 'Yokohama Chinatown (Japanese: 横浜中華街, yokohama chūkagai; Simplified Chinese: 横滨中华街; Traditional Chinese: 橫濱中華街; Pinyin: Héngbīn Zhōnghuá Jiē; Cantonese Jyutping: Waang4 ban1 zung1 waa4 gaai1) is located in Yokohama, Japan, which is located just south of Tokyo. ',
-        'title': 'Yokohama Chinatown',
+        'title': 'Chinatown',
         'img': 'photo-1530569243640-22bea3e23e1b.jpg',
         'authImg': 'https://unsplash.com/photos/68XG8uaM7d4',
         'authText': 'https://en.wikipedia.org/wiki/Yokohama_Chinatown',
@@ -47,7 +47,7 @@ const Areas = [
     {
         'path': 'YokohamaBayBridge',
         'description': 'The Yokohama Bay Bridge (横浜ベイブリッジ Yokohama Bei Buridji) is an 860 metres (2,820 ft) cable stayed bridge in Yokohama, Japan. Opened September 27, 1989, it crosses Tokyo Bay with a span of 460 metres (1,510 feet). The toll is ¥600. The bridge is part of the Bayshore Route of the Shuto Expressway.',
-        'title': 'Yokohama Bay Bridge',
+        'title': 'Bay Bridge',
         'img': '_DSC1332_TP_V.jpg',
         'authImg': 'https://www.pakutaso.com/20170134018post-10032.html',
         'authText': 'https://en.wikipedia.org/wiki/Yokohama_Bay_Bridge',
@@ -65,7 +65,7 @@ const Areas = [
     {
         'path': 'YokohamaPortOpeningMemorialHall',
         'description': 'Yokohama City Port Opening Memorial Hall is a historical building located in the Kannai area of Naka Ward, Yokohama City, Kanagawa Prefecture. Important cultural property of the country.',
-        'title': 'Yokohama Port Opening Memorial Hall',
+        'title': 'Port Opening Memorial Hall',
         'img': 'Yokohama_Port_Opening_Memorial_Hall.jpg',
         'authImg': 'https://ja.wikipedia.org/wiki/ファイル:Yokohama_Port_Opening_Memorial_Hall_(8459934101).jpg',
         'authText': 'https://ja.wikipedia.org/wiki/横浜市開港記念会館',

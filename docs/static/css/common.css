@@ -1,11 +1,11 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
 }
 
 body {
 	background-color: #262626;
+	font-family: Arial,Verdana,Geneva,Helvetica,sans-serif;
 }
 
 html,
