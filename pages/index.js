@@ -43,7 +43,7 @@ export class Index extends React.Component {
             </Link>              
           </div>
           <style jsx global>{`
-            body { 
+            body {
               background-image:url( ${this.getBackgroundImageStyle()} );
             }
           `}</style>
