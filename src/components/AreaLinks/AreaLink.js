@@ -37,7 +37,6 @@ const styles = css`
   display: block;
   padding: 16px;
   text-align: center;
-  border-radius: 4px;
   margin-bottom: 24px;
 }
 
