@@ -20,16 +20,16 @@ export class Index extends React.Component {
           <div className="l-top__titleWrap">
             <h1>Yokohama Landscape</h1>
           </div>
-          <div className="area-links-wrap">
+          <div className="l-areaLinks">
             <AreaLinks></AreaLinks>
           </div>
-          <div className="about-link-wrap">
+          <div className="l-aboutLink">
             <Link
               href={{
                 pathname: "./about/",
               }}
             >
-              <a className="about-link">
+              <a>
                 ABOUT
                 <span
                   className="glyphicon glyphicon-chevron-right"
@@ -38,9 +38,8 @@ export class Index extends React.Component {
               </a>
             </Link>
           </div>
-          <div className="auth-link-wrap text-right">
+          <div className="l-authLink text-right">
             <a
-              className="auth-link"
               target="_blank"
               href="https://www.pakutaso.com/20150850219hdr.html"
             >
@@ -82,29 +81,31 @@ const styles = css`
     }
   }
 
-  .area-links-wrap {
+  .l-areaLinks {
     max-width: 1024px;
     margin: 100px auto 100px;
   }
-  .about-link-wrap {
+
+  .l-aboutLink {
     position: absolute;
     top: 0;
     right: 0;
-  }
-  .about-link-wrap a {
-    padding: 12px;
-    display: block;
-    background: #262626;
+    a {
+      padding: 12px;
+      display: block;
+      background: #262626;
+    }
+    span {
+      margin-left: 4px;
+    }
   }
 
-  .about-link-wrap span {
-    margin-left: 4px;
-  }
-
-  .auth-link {
-    background-color: rgba(0, 0, 0, 0.75);
-    display: inline-block;
-    padding: 4px;
+  .l-authLink {
+    a {
+      background-color: rgba(0, 0, 0, 0.75);
+      display: inline-block;
+      padding: 2px 4px;
+    }
   }
 `;
 
