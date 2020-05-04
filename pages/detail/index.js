@@ -1,12 +1,12 @@
-import React from 'react';
-import _JSXStyle from 'styled-jsx/style';
-import css from 'styled-jsx/css';
-import Areas from '../../src/data/Areas';
-import CommonHead from '../../src/components/CommonHead';
-import BackLink from '../../src/components/BackLink';
-import DescriptionBox from '../../src/components/DescriptionBox';
-import CONFIG from '../../next.config';
-const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
+import React from "react";
+import _JSXStyle from "styled-jsx/style";
+import css from "styled-jsx/css";
+import Areas from "../../src/data/Areas";
+import CommonHead from "../../src/components/CommonHead";
+import BackLink from "../../src/components/BackLink";
+import DescriptionBox from "../../src/components/DescriptionBox";
+import CONFIG from "../../next.config";
+const ROOT = CONFIG.assetPrefix === "" ? "/" : CONFIG.assetPrefix;
 
 export class detail extends React.Component {
   constructor(props) {
@@ -25,9 +25,9 @@ export class detail extends React.Component {
   }
   getAreaData(path) {
     const filteredAreas = Areas.filter((area) => {
-      return (area.path === path);
+      return area.path === path;
     });
-    return (filteredAreas.length > 0) ? filteredAreas[0] : null;
+    return filteredAreas.length > 0 ? filteredAreas[0] : null;
   }
   setAreaData(areaData) {
     this.setState(areaData);
@@ -35,10 +35,10 @@ export class detail extends React.Component {
   }
   renderDefault() {
     return (
-      <div className="pageRoot">
+      <div>
         <CommonHead title={this.state.title}></CommonHead>
         <div className="container">
-          <div className="back-link-wrap">
+          <div className="l-backLinkWrap">
             <BackLink></BackLink>
           </div>
           <DescriptionBox
@@ -46,40 +46,42 @@ export class detail extends React.Component {
             description={this.state.description}
             authText={this.state.authText}
             authImg={this.state.authImg}
-            annotation={this.state.annotation}>
-          </DescriptionBox>
+            annotation={this.state.annotation}
+          ></DescriptionBox>
         </div>
         <style jsx>{styles}</style>
         <style jsx global>{`
-            body {
-              background-image:url( ${this.getBackgroundImagePath()} );
-              background-size: cover;
-              background-position: center;
-              background-attachment: fixed;
-            }
-          `}</style>
+          body {
+            background-image: url(${this.getBackgroundImagePath()});
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+          }
+        `}</style>
       </div>
-    )
+    );
   }
   renderError() {
     return (
       <div>
         <CommonHead></CommonHead>
         <div className="container">
-          <div className="back-link-wrap">
+          <div className="l-backLinkWrap">
             <BackLink></BackLink>
           </div>
           <p>Sorry page data is not found.</p>
           <style jsx>{styles}</style>
         </div>
       </div>
-    )
+    );
   }
   getBackgroundImagePath() {
-    return ROOT + 'static/img/background/' + this.state.img;
+    return ROOT + "static/img/background/" + this.state.img;
   }
   componentDidMount() {
-    const areaName = (this.props.query.name) ? this.props.query.name : location.search.replace('?name=', '');
+    const areaName = this.props.query.name
+      ? this.props.query.name
+      : location.search.replace("?name=", "");
     const areaData = this.getAreaData(areaName);
     if (areaData !== null) {
       this.setAreaData(areaData);
@@ -88,13 +90,13 @@ export class detail extends React.Component {
 }
 
 const styles = css`
-.container {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.back-link-wrap {
-  margin-bottom: 12px;
-}
+  .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .l-backLinkWrap {
+    margin-bottom: 12px;
+  }
 `;
 
 export default detail;

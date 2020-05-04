@@ -15,7 +15,7 @@ export class AreaLink extends React.Component {
                     pathname: './detail/',
                     query: { name: this.props.path }
                 }}>
-                    <a className="area-link">
+                    <a className="l-areaLinks__link">
                         {this.props.title}
                     </a>
                 </Link>
@@ -31,19 +31,18 @@ AreaLink.propTypes = {
 };
 
 const styles = css`
-.area-link {
-  color: #d9d9d9;
-  background: rgba(0, 0, 0, 0.75);
-  display: block;
-  padding: 16px;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.area-link:hover {
-  color: #262626;
-  background: rgba(255, 255, 255, 0.75);
-}
+    .l-areaLinks__link {
+        color: #d9d9d9;
+        background: rgba(0, 0, 0, 0.75);
+        display: block;
+        padding: 16px;
+        text-align: center;
+        margin-bottom: 1px;
+        :hover {
+            color: #262626;
+            background: rgba(255, 255, 255, 0.75);
+        }
+    }
 `;
 
 export default AreaLink;
