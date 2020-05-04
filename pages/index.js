@@ -1,11 +1,11 @@
-import React from 'react';
-import _JSXStyle from 'styled-jsx/style';
-import css from 'styled-jsx/css';
-import CommonHead from '../src/components/CommonHead';
-import AreaLinks from '../src/components/AreaLinks';
-import Link from 'next/link';
-import CONFIG from '../next.config';
-const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
+import React from "react";
+import _JSXStyle from "styled-jsx/style";
+import css from "styled-jsx/css";
+import CommonHead from "../src/components/CommonHead";
+import AreaLinks from "../src/components/AreaLinks";
+import Link from "next/link";
+import CONFIG from "../next.config";
+const ROOT = CONFIG.assetPrefix === "" ? "/" : CONFIG.assetPrefix;
 
 export class Index extends React.Component {
   constructor(props) {
@@ -16,31 +16,39 @@ export class Index extends React.Component {
     return (
       <div>
         <CommonHead></CommonHead>
-        <div id="root" className="container">
-          <div className="title-wrap">
+        <div className="container l-top">
+          <div className="l-top__titleWrap">
             <h1>Yokohama Landscape</h1>
           </div>
-          <div className="area-links-wrap">
+          <div className="l-areaLinks">
             <AreaLinks></AreaLinks>
           </div>
-          <div className="about-link-wrap">
-            <Link href={{
-              pathname: './about/'
-            }}>
-              <a className="about-link">
+          <div className="l-aboutLink">
+            <Link
+              href={{
+                pathname: "./about/",
+              }}
+            >
+              <a>
                 ABOUT
-                <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span
+                  className="glyphicon glyphicon-chevron-right"
+                  aria-hidden="true"
+                ></span>
               </a>
             </Link>
           </div>
-          <div className="auth-link-wrap text-right">
-            <a className="auth-link" target="_blank" href="https://www.pakutaso.com/20150850219hdr.html">
+          <div className="l-authLink text-right">
+            <a
+              target="_blank"
+              href="https://www.pakutaso.com/20150850219hdr.html"
+            >
               background photo author
             </a>
           </div>
           <style jsx global>{`
             body {
-              background-image:url( ${this.getBackgroundImageStyle()} );
+              background-image: url(${this.getBackgroundImageStyle()});
             }
           `}</style>
           <style jsx>{styles}</style>
@@ -49,59 +57,56 @@ export class Index extends React.Component {
     );
   }
   getBackgroundImageStyle() {
-    return ROOT + 'static/img/background/index.jpg';
+    return ROOT + "static/img/background/index.jpg";
   }
 }
 
 const styles = css`
-#root {
-  padding-top: 200px;
-}
-@media screen and (max-width: 480px) {
-  #root {
-    padding-top: 60px;
+  .l-top {
+    padding-top: 160px;
+    @media screen and (max-width: 480px) {
+      padding-top: 40px;
+    }
+    &__titleWrap {
+      text-align: center;
+      margin-bottom: 24px;
+      h1 {
+        color: #fff;
+        display: inline-block;
+        font-size: 80px;
+        @media screen and (max-width: 480px) {
+          font-size: 48px;
+        }
+      }
+    }
   }
-}
-.title-wrap {
-  text-align: center;
-  margin-bottom: 24px;
-}
 
-h1 {
-  color: #fff;
-  display: inline-block;
-  font-size: 80px;
-}
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 48px;
+  .l-areaLinks {
+    max-width: 1024px;
+    margin: 100px auto 100px;
   }
-}
 
-.area-links-wrap {
-  max-width: 1024px;
-  margin: 100px auto 100px;
-}
-.about-link-wrap {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.about-link-wrap a {
-  padding: 12px;
-  display: block;
-  background: #262626;
-}
+  .l-aboutLink {
+    position: absolute;
+    top: 0;
+    right: 0;
+    a {
+      padding: 12px;
+      display: block;
+      background: #262626;
+    }
+    span {
+      margin-left: 4px;
+    }
+  }
 
-.about-link-wrap span {
-  margin-left: 4px;
-}
-
-.auth-link {
-  background-color: rgba(0, 0, 0, 0.75);
-  display: inline-block;
-  padding: 4px;
-}
+  .l-authLink {
+    a {
+      background-color: rgba(0, 0, 0, 0.75);
+      display: inline-block;
+      padding: 2px 4px;
+    }
+  }
 `;
 
-export default Index
+export default Index;
