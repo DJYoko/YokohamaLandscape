@@ -11,13 +11,13 @@ export class BackLink extends React.Component {
   }
   render() {
     return (
-      <div className="back-link-area">
+      <div className="l-backLink">
         <Link
           href={{
             pathname: ROOT,
           }}
         >
-          <a className="back-link">
+          <a>
             <span
               className="glyphicon glyphicon-chevron-left"
               aria-hidden="true"
@@ -32,26 +32,26 @@ export class BackLink extends React.Component {
 }
 
 const styles = css`
-  .back-link-area {
+  .l-backLink {
     display: inline-block;
-  }
-  .back-link {
-    color: #d9d9d9;
-    background: rgba(0, 0, 0, 0.9);
-    display: block;
-    padding: 8px;
-    text-align: center;
-    border-radius: 4px;
-  }
 
-  .back-link:hover {
-    text-decoration: none;
-    color: #262626;
-    background: rgba(255, 255, 255, 0.75);
-  }
+    a {
+      color: #d9d9d9;
+      background: rgba(0, 0, 0, 0.9);
+      display: block;
+      padding: 8px;
+      text-align: center;
+      border-radius: 4px;
+      :hover {
+        text-decoration: none;
+        color: #262626;
+        background: rgba(255, 255, 255, 0.75);
+      }
 
-  .glyphicon {
-    margin-right: 4px;
+      .glyphicon {
+        margin-right: 4px;
+      }
+    }
   }
 `;
 
