@@ -35,10 +35,10 @@ export class detail extends React.Component {
   }
   renderDefault() {
     return (
-      <div className="pageRoot">
+      <div>
         <CommonHead title={this.state.title}></CommonHead>
         <div className="container">
-          <div className="back-link-wrap">
+          <div className="l-backLinkWrap">
             <BackLink></BackLink>
           </div>
           <DescriptionBox
@@ -66,7 +66,7 @@ export class detail extends React.Component {
       <div>
         <CommonHead></CommonHead>
         <div className="container">
-          <div className="back-link-wrap">
+          <div className="l-backLinkWrap">
             <BackLink></BackLink>
           </div>
           <p>Sorry page data is not found.</p>
@@ -94,7 +94,7 @@ const styles = css`
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  .back-link-wrap {
+  .l-backLinkWrap {
     margin-bottom: 12px;
   }
 `;
