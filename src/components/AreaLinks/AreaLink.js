@@ -37,7 +37,7 @@ const styles = css`
         display: block;
         padding: 16px;
         text-align: center;
-        margin-bottom: 24px;
+        margin-bottom: 1px;
         :hover {
             color: #262626;
             background: rgba(255, 255, 255, 0.75);
