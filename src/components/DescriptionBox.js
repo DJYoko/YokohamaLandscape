@@ -19,12 +19,12 @@ export class DescriptionBox extends React.Component {
                 <p>
                     Text Source
                     <br />
-                    {this.props.authText}
+                    <a target="_blank"rel="nofollow noopener" href={this.props.authText}>{this.props.authText}</a>
                 </p>
                 <p>
                     Photo Source
                     <br />
-                    {this.props.authImg}
+                    <a target="_blank"rel="nofollow noopener" href={this.props.authImg}>{this.props.authImg}</a>
                 </p>
                 <style jsx>{styles}</style>
             </div>
