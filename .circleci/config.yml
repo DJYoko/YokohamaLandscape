@@ -1,4 +1,4 @@
-version: 1.0.0
+version: 2
 
 orbs:
   node: circleci/node@4.1
@@ -12,19 +12,14 @@ jobs:
       - node/install-packages
       - run:
           name: Install Node dependencies
-          command: npm install
-       - run:
-          name: Deploy
-          command: |
-            git config --global user.name "Circle CI"
-            git config --global user.email "<>"
-            npm run export
+          command: npm install && npm run export
 
 workflows:
-  sample: 
+  version: 2
+  on-master-update: 
     jobs:
-      - build-deploy
-        filters:
-          branches:
-            only:
-              - master
+      - build-deploy:
+          filters:
+            branches:
+              only:
+                - master
