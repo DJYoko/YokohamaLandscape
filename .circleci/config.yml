@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Install Node dependencies
-          command: npm install && npm run export
+          command: npm install && npm run build && npm run export
 
 workflows:
   version: 2
