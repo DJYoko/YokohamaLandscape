@@ -12,6 +12,12 @@ jobs:
       - run:
           name: Install Node dependencies
           command: npm install && npm run build && npm run export
+      - run:
+          name: deploy
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./docs
 
 workflows:
   version: 2
