@@ -9,12 +9,9 @@ jobs:
       - image: cimg/node:15.1
     steps:
       - checkout
-      - name: install modules
-        run: npm install 
-      - name: build source
-        run: npm run build
-      - name: export
-        run: npm run export
+      - run:
+          name: Install Node dependencies
+          command: npm install && npm run build && npm run export
 
 workflows:
   version: 2
