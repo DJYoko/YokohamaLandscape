@@ -4,7 +4,8 @@ Landscape of my Hometown. based on `Next.js`.
 
 ## demo
 
-[https://djyoko.github.io/YokohamaLandscape/index.html](https://djyoko.github.io/YokohamaLandscape/index.html)
+[https://djyoko.github.io/YokohamaLandscape/](https://djyoko.github.io/YokohamaLandscape/)
+
 DEMO is compiled static HTMLs. it works as SPA.
 
 ### build command
