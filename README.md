@@ -8,7 +8,7 @@ Landscape of my Hometown. based on `Next.js`.
 
 DEMO is compiled static HTMLs. it works as SPA.
 
-### build command
+## build command
 
 - run `npm run dev`
 - export static HTMLs `npm run export`
@@ -16,13 +16,13 @@ DEMO is compiled static HTMLs. it works as SPA.
   - github pages ignore `_UnderbarStart` directory (the first underbar).
   - to prevent this, `.nojekyll` should be on ./docs directory.
 
-### framework & libraries
+## framework & libraries
 
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
 
-### visual materials
+## visual materials
 
 - photos [unsplash.com](https://unsplash.com), [www.pakutaso.com](https://www.pakutaso.com)
 - text [Wikipedia](https://en.wikipedia.org/wiki/Yokohama)
