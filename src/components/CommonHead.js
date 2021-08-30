@@ -1,26 +1,28 @@
-import React from "react";
+import React from 'react';
 import Head from 'next/head';
 import CONFIG from '../../next.config';
-const ROOT = (CONFIG.assetPrefix === '') ? '/' : CONFIG.assetPrefix;
+const ROOT = CONFIG.assetPrefix === '' ? '/' : CONFIG.assetPrefix;
 
 export class CommonHead extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    render() {
-        return (
-            <Head>
-                <title>{this.props.title}</title>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-                <link rel="stylesheet" href={ROOT + 'static/css/common.css'}></link>
-            </Head>
-        );
-    }
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <Head>
+        <title>{this.props.title}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        ></link>
+      </Head>
+    );
+  }
 }
 
 CommonHead.defaultProps = {
-    title: 'Yokohama Landscape',
-}
+  title: 'Yokohama Landscape',
+};
 
 export default CommonHead;
