@@ -1,11 +1,11 @@
 import React from "react";
 import _JSXStyle from "styled-jsx/style";
 import css from "styled-jsx/css";
-import Areas from "../../src/data/Areas";
-import CommonHead from "../../src/components/CommonHead";
-import BackLink from "../../src/components/BackLink";
-import DescriptionBox from "../../src/components/DescriptionBox";
-import CONFIG from "../../next.config";
+import Areas from "src/data/Areas";
+import CommonHead from "src/components/CommonHead";
+import BackLink from "src/components/BackLink";
+import DescriptionBox from "src/components/DescriptionBox";
+import CONFIG from "next.config";
 const ROOT = CONFIG.assetPrefix === "" ? "/" : CONFIG.assetPrefix;
 
 export class detail extends React.Component {

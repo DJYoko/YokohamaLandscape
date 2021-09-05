@@ -1,10 +1,10 @@
-import React from "react";
-import _JSXStyle from "styled-jsx/style";
-import css from "styled-jsx/css";
-import CommonHead from "../../src/components/CommonHead";
-import BackLink from "../../src/components/BackLink";
-import CONFIG from "../../next.config";
-const ROOT = CONFIG.assetPrefix === "" ? "/" : CONFIG.assetPrefix;
+import React from 'react';
+import _JSXStyle from 'styled-jsx/style';
+import css from 'styled-jsx/css';
+import CommonHead from 'src/components/CommonHead';
+import BackLink from 'src/components/BackLink';
+import CONFIG from 'next.config';
+const ROOT = CONFIG.assetPrefix === '' ? '/' : CONFIG.assetPrefix;
 
 export class About extends React.Component {
   constructor(props) {
@@ -97,7 +97,7 @@ export class About extends React.Component {
     );
   }
   getBackgroundImagePath() {
-    return ROOT + "static/img/background/index.jpg";
+    return ROOT + 'static/img/background/index.jpg';
   }
 }
 
@@ -106,7 +106,7 @@ const styles = css`
     height: 100%;
 
     &:before {
-      content: " ";
+      content: ' ';
       position: absolute;
       width: 100%;
       height: 100%;

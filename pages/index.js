@@ -1,11 +1,11 @@
 import React from 'react';
 import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
-import CommonHead from '../src/components/CommonHead';
-import AreaLinks from '../src/components/AreaLinks';
+import CommonHead from 'src/components/CommonHead';
+import AreaLinks from 'src/components/AreaLinks';
 import Link from 'next/link';
-import CONFIG from '../next.config';
-import generateSiteRoute from '../src/functions/generateSiteRoute';
+import CONFIG from 'next.config';
+import generateSiteRoute from 'src/functions/generateSiteRoute';
 const ROOT = CONFIG.assetPrefix === '' ? '/' : CONFIG.assetPrefix;
 
 export class Index extends React.Component {

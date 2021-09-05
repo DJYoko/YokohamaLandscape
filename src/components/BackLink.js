@@ -1,9 +1,9 @@
-import React from "react";
-import _JSXStyle from "styled-jsx/style";
-import css from "styled-jsx/css";
-import Link from "next/link";
-import CONFIG from "../../next.config";
-const ROOT = CONFIG.assetPrefix === "" ? "/" : CONFIG.assetPrefix;
+import React from 'react';
+import _JSXStyle from 'styled-jsx/style';
+import css from 'styled-jsx/css';
+import Link from 'next/link';
+import CONFIG from 'next.config';
+const ROOT = CONFIG.assetPrefix === '' ? '/' : CONFIG.assetPrefix;
 
 export class BackLink extends React.Component {
   constructor(props) {
