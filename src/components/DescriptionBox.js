@@ -9,28 +9,24 @@ export class DescriptionBox extends React.Component {
   render() {
     return (
       <div className="u-descriptionBox">
-        <h1> {this.props.title} </h1>{' '}
+        <h1> {this.props.title} </h1>
         <p>
-          {' '}
-          {this.props.description} <br /> {this.props.annotation}{' '}
-        </p>{' '}
+          {this.props.description} <br /> {this.props.annotation}
+        </p>
         <hr />
         <p>
           Text Source <br />
           <a target="_blank" rel="nofollow noopener" href={this.props.authText}>
-            {' '}
-            {this.props.authText}{' '}
-          </a>{' '}
-        </p>{' '}
+            {this.props.authText}
+          </a>
+        </p>
         <p>
-          Photo Source
-          <br />
+          Photo Source <br />
           <a target="_blank" rel="nofollow noopener" href={this.props.authImg}>
-            {' '}
-            {this.props.authImg}{' '}
-          </a>{' '}
-        </p>{' '}
-        <style jsx> {styles} </style>{' '}
+            {this.props.authImg}
+          </a>
+        </p>
+        <style jsx> {styles} </style>
       </div>
     );
   }
