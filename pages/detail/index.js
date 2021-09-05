@@ -1,12 +1,12 @@
-import React from "react";
-import _JSXStyle from "styled-jsx/style";
-import css from "styled-jsx/css";
-import Areas from "src/data/Areas";
-import CommonHead from "src/components/CommonHead";
-import BackLink from "src/components/BackLink";
-import DescriptionBox from "src/components/DescriptionBox";
-import CONFIG from "next.config";
-const ROOT = CONFIG.assetPrefix === "" ? "/" : CONFIG.assetPrefix;
+import React from 'react';
+import _JSXStyle from 'styled-jsx/style';
+import css from 'styled-jsx/css';
+import Areas from 'src/data/Areas';
+import CommonHead from 'src/components/CommonHead';
+import BackLink from 'src/components/BackLink';
+import DescriptionBox from 'src/components/DescriptionBox';
+import CONFIG from 'next.config';
+const ROOT = CONFIG.assetPrefix === '' ? '/' : CONFIG.assetPrefix;
 
 export class detail extends React.Component {
   constructor(props) {
@@ -76,12 +76,12 @@ export class detail extends React.Component {
     );
   }
   getBackgroundImagePath() {
-    return ROOT + "static/img/background/" + this.state.img;
+    return ROOT + 'static/img/background/' + this.state.img;
   }
   componentDidMount() {
     const areaName = this.props.query.name
       ? this.props.query.name
-      : location.search.replace("?name=", "");
+      : location.search.replace('?name=', '');
     const areaData = this.getAreaData(areaName);
     if (areaData !== null) {
       this.setAreaData(areaData);
