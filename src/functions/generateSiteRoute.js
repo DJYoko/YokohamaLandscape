@@ -1,4 +1,4 @@
-import CONFIG from '../../next.config';
+import CONFIG from 'next.config';
 const ROOT = CONFIG.assetPrefix === '' ? '/' : CONFIG.assetPrefix;
 
 export default function generateSiteRoute(originalPath) {

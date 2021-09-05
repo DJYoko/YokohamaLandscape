@@ -1,7 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import CONFIG from '../../next.config';
-const ROOT = CONFIG.assetPrefix === '' ? '/' : CONFIG.assetPrefix;
 
 export class CommonHead extends React.Component {
   constructor(props) {

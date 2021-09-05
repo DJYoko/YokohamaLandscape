@@ -3,7 +3,7 @@ import _JSXStyle from 'styled-jsx/style';
 import css from 'styled-jsx/css';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import generateSiteRoute from '../../functions/generateSiteRoute';
+import generateSiteRoute from 'src/functions/generateSiteRoute';
 
 export class AreaLink extends React.Component {
   constructor(props) {
