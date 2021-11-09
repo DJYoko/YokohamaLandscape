@@ -29,7 +29,8 @@
     "serialize-javascript": "^5.0.1",
     "set-value": "^4.0.1",
     "styled-jsx-plugin-sass": "^1.0.0",
-    "tar": "^6.1.11"
+    "tar": "^6.1.11",
+    "trim-newlines": "^4.0.2"
   },
   "dependencies": {}
 }
